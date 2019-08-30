@@ -6,6 +6,20 @@ from bokeh.plotting import figure, show, output_file
 #7567, 14917, 28393, 41371
 #x = np.linspace(0.1, 5, 80)
 
+perf_x = ['1/Mar/2012', '2/Mar/2012', '3/Mar/2012', '4/Mar/2012', '5/Mar/2012', '6/Mar/2012', '7/Mar/2012', '8/Mar/2012', '9/Mar/2012', '10/Mar/2012', '11/Mar/2012', '12/Mar/2012', '13/Mar/2012', '14/Mar/2012']
+base_perf_y = [11139, 8598, 3168, 200, 5038, 7081, 4488, 5255, 7691, 2597, 225, 5414, 5599, 4396]
+sug_perf_y = [5319, 3423, 1916, 73, 2548, 2644, 1532, 1927, 2600, 2058, 172, 2214, 1754, 1646]
+
+p = figure(x_range = perf_x, y_range=(0, 12000),
+           background_fill_color="#fafafa", plot_width=400, plot_height=300)
+p.line(perf_x, base_perf_y, line_color='orange', legend="baseline", line_width=2)
+p.square(perf_x, base_perf_y, fill_color=None, legend="baseline", line_color='orange', size=6)
+
+p.line(perf_x, sug_perf_y, line_color='green', legend="suggested", line_width=2)
+p.circle(perf_x, sug_perf_y, fill_color=None, legend="suggested", line_color="green", size=6)
+p.yaxis.axis_label = "Total weighted completion time"
+
+"""
 perf_x = [40, 60, 80, 100, 120]
 base_perf_y = [3427, 5934, 7648, 9260, 19907]
 sug_perf_y = [2364, 3652, 4625, 5623, 7247]
@@ -18,7 +32,7 @@ p.square(perf_x, base_perf_y, fill_color=None, legend="baseline", line_color='or
 p.line(perf_x, sug_perf_y, line_color='green', legend="suggested", line_width=2)
 p.circle(perf_x, sug_perf_y, fill_color=None, legend="suggested", line_color="green", size=6)
 p.yaxis.axis_label = "Total weighted completion time"
-
+"""
 
 """
 time_x = [40, 60, 80, 100, 120]
