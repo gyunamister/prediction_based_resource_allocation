@@ -114,7 +114,7 @@ class LogGenerator(object):
 		self.prod_hbar()
 		self.eventlist = list()
 
-	def extract_sequence(self, path="./sample_data/testlog1_no_noise.csv"):
+	def extract_sequence(self, path="./testlog1_no_noise.csv"):
 		eventlog = Eventlog.from_txt(path, sep=',')
 		eventlog = eventlog.assign_caseid('Case ID')
 		eventlog = eventlog.assign_activity('Activity')
@@ -291,16 +291,36 @@ class LogGenerator(object):
 
 if __name__=='__main__':
 	resource_info_name = '0806_1'
-	#count_list = [20, 60, 80, 120, 140, 160, 180]
-	count_list = [120]
+	count_list = [90]
+	# count_list = [120]
 	#testlog
 	for count in count_list:
-		Gen = LogGenerator(mode='test', endpoint=180, count=count, res_path="../sample_data/new_resource_{}.csv".format(resource_info_name))
+		Gen = LogGenerator(mode='test', endpoint=180, count=count, res_path="../sample_data/artificial/new_resource_{}.csv".format(resource_info_name))
 		Gen.simulate()
 		#show(Gen.p)
 		eventlog = Gen.prod_eventlog(start_point='2018-12-01 00:00:00')
 		eventlog = Gen.generate_weight(eventlog)
-		eventlog.to_csv('../result/testlog_{}_{}.csv'.format(resource_info_name,count))
+
+		i=0
+		check=False
+		removes = list()
+		for row in eventlog.itertuples():
+			if check == True:
+				if row.Activity=="Discharge":
+					removes.append(row.Index)
+					check=False
+				else:
+					check=False
+			else:
+				if row.Activity == "Discharge":
+					check=True
+		eventlog = eventlog.loc[~eventlog.index.isin(removes)]
+		print(eventlog)
+
+
+		eventlog.to_csv('../sample_data/artificial/testlog_{}_{}.csv'.format(resource_info_name,count))
+
+
 	"""
 	#traininglog
 	Gen = LogGenerator(7*24*60,res_path="../sample_data/new_resource_{}.csv".format(resource_info_name))

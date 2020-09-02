@@ -74,6 +74,10 @@ class Instance(object):
 		cls.model_next_time = pred_model
 
 	@classmethod
+	def set_est_next_time(cls, pred_model):
+		cls.est_next_time = pred_model
+
+	@classmethod
 	def set_activity_list(cls, activity_list):
 		cls.activity_list = activity_list
 
@@ -168,13 +172,36 @@ class Instance(object):
 		#pred_vector, conf_vector = self.model_next_act.predict(X, context=False)
 		pred_index = np.argmax(pred_vector,axis=1)[0]
 		pred_next_act = self.act_int_to_char[pred_index]
-		# uncertainty로 바꿔야지
-		#conf = np.max(pred_vector) - confidence를 활용
 		conf = conf_vector[pred_index]
 
 		time2 = time.time()
 		self.pred_time_list.append(time2-time1)
 		return pred_next_act, conf
+
+	def estimate_next_time(self, queue, context= True, pred_act=False, resource=False):
+		"""
+		if self.cur_index > 0:
+			act_trace = self.act_sequence[:self.cur_index-1] + [cur_act]
+			res_trace = self.res_sequence[:self.cur_index-1] + [resource]
+		else:
+			act_trace = [cur_act]
+			res_trace = [resource]
+		"""
+		if pred_act!= False and resource!=False:
+			X = self.update_x(self.cur_act_trace + [pred_act], self.cur_res_trace+ [resource])
+		else:
+			X = self.update_x(self.cur_act_trace, self.cur_res_trace)
+		if context==True:
+			context_X = np.array(list(queue.values()))
+			dur_pred, conf = self.model_next_time.predict(X, context_X)
+
+		else:
+			dur_pred, conf = self.model_next_time.predict(X, context=False)
+
+		pred_dur = math.floor(dur_pred[0][0])
+		if pred_dur <= 0:
+			pred_dur = 1
+		return pred_dur, conf[0]
 
 	def predict_next_time(self, queue, context= True, pred_act=False, resource=False):
 		time1 = time.time()
@@ -193,6 +220,7 @@ class Instance(object):
 		if context==True:
 			context_X = np.array(list(queue.values()))
 			dur_pred, conf = self.model_next_time.predict(X, context_X)
+
 		else:
 			dur_pred, conf = self.model_next_time.predict(X, context=False)
 
@@ -218,13 +246,13 @@ class Instance(object):
 	def get_next_pred_act(self):
 		return self.next_pred_act
 
-	def get_next_act_conf(self):
-		return self.next_act_conf
+	def get_next_act_uncertainty(self):
+		return self.next_act_uncertainty
 
 	def get_next_pred_ts(self):
 		return self.next_pred_ts
 
-	def get_next_ts_conf(self, res):
+	def get_next_ts_uncertainty(self, res):
 		return self.pred_act_dur_dict[res][1]
 
 	def get_next_actual_ts(self):
@@ -279,16 +307,16 @@ class Instance(object):
 	def set_next_pred_act(self, next_pred_act):
 		self.next_pred_act = next_pred_act
 
-	def set_next_act_conf(self, next_act_conf):
-		self.next_act_conf = next_act_conf
+	def set_next_act_uncertainty(self, next_act_uncertainty):
+		self.next_act_uncertainty = next_act_uncertainty
 
-	def set_next_ts_conf(self, res, next_ts_conf):
-		self.pred_act_dur_dict[res][1] = next_ts_conf
+	def set_next_ts_uncertainty(self, res, next_ts_uncertainty):
+		self.pred_act_dur_dict[res][1] = next_ts_uncertainty
 
 	def set_next_pred_ts(self, next_pred_ts):
 		self.next_pred_ts = next_pred_ts
 
-	def update_actuals(self, t, res, mode, act_res_mat):
+	def update_actuals(self, t, res, mode, act_res_mat, queue):
 		# set next ts
 		self.cur_index+=1
 		self.first =False
@@ -303,7 +331,10 @@ class Instance(object):
 		if mode == 'test':
 			self.set_next_actual_ts(t+int(act_res_mat[self.cur_actual_act][res.get_name()]))
 		else:
+			# (CHANGED)
 			self.set_next_actual_ts(self.get_next_pred_ts())
+			# next_est_dur, next_time_uncertainty = self.estimate_next_time(queue, context=True, pred_act=self.cur_actual_act, resource=res.get_name())
+			# self.set_next_actual_ts(t+next_est_dur)
 
 		# set current seq
 		if self.cur_index < len(self.act_sequence)-1:
@@ -359,7 +390,7 @@ class Resource(object):
 		self.skills = skills
 		self.next_pred_ts=0
 		self.next_actual_ts = 0
-		self.next_ts_conf = 1
+		self.next_ts_uncertainty = 1
 		self.status=True
 		self.dur_dict = dict()
 
@@ -378,8 +409,8 @@ class Resource(object):
 	def get_next_pred_ts(self):
 		return self.next_pred_ts
 
-	def get_next_ts_conf(self):
-		return self.next_ts_conf
+	def get_next_ts_uncertainty(self):
+		return self.next_ts_uncertainty
 
 	def get_next_actual_ts(self):
 		return self.next_actual_ts
@@ -390,8 +421,8 @@ class Resource(object):
 	def set_next_pred_ts(self, next_pred_ts):
 		self.next_pred_ts = next_pred_ts
 
-	def set_next_ts_conf(self, conf):
-		self.next_ts_conf = conf
+	def set_next_ts_uncertainty(self, conf):
+		self.next_ts_uncertainty = conf
 
 	def set_status(self, status):
 		self.status = status

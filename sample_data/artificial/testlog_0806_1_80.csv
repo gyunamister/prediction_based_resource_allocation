@@ -1,541 +1,541 @@
 ,CASE_ID,Activity,Resource,Start,Complete,StartTimestamp,CompleteTimestamp,weight,Duration
-0,Case1,Registration,Resource1,10,11,2018.12.1 0:10,2018.12.1 0:11,4,1
-3,Case1,Triage and Assessment,Resource3,11,12,2018.12.1 0:11,2018.12.1 0:12,4,1
-6,Case1,Intravenous,Resource6,13,14,2018.12.1 0:13,2018.12.1 0:14,4,1
-10,Case1,X-ray,Resource8,15,16,2018.12.1 0:15,2018.12.1 0:16,4,1
-13,Case1,Evaluation,Resource14,17,18,2018.12.1 0:17,2018.12.1 0:18,4,1
-16,Case1,Admission,Resource20,19,20,2018.12.1 0:19,2018.12.1 0:20,4,1
-20,Case1,Discharge,Resource23,21,22,2018.12.1 0:21,2018.12.1 0:22,4,1
-232,Case10,Registration,Resource2,100,102,2018.12.1 1:40,2018.12.1 1:42,2,2
-240,Case10,Triage and Assessment,Resource3,102,103,2018.12.1 1:42,2018.12.1 1:43,2,1
-246,Case10,Intravenous,Resource6,105,106,2018.12.1 1:45,2018.12.1 1:46,2,1
-252,Case10,X-ray,Resource10,108,111,2018.12.1 1:48,2018.12.1 1:51,2,3
-262,Case10,Evaluation,Resource14,111,112,2018.12.1 1:51,2018.12.1 1:52,2,1
-265,Case10,Admission,Resource22,112,115,2018.12.1 1:52,2018.12.1 1:55,2,3
-279,Case10,Discharge,Resource23,117,118,2018.12.1 1:57,2018.12.1 1:58,2,1
-258,Case11,Registration,Resource2,110,112,2018.12.1 1:50,2018.12.1 1:52,6,2
-268,Case11,Triage and Assessment,Resource5,113,116,2018.12.1 1:53,2018.12.1 1:56,6,3
-281,Case11,Intravenous,Resource7,118,120,2018.12.1 1:58,2018.12.1 2:00,6,2
-285,Case11,X-ray,Resource9,120,122,2018.12.1 2:00,2018.12.1 2:02,6,2
-292,Case11,Evaluation,Resource15,122,124,2018.12.1 2:02,2018.12.1 2:04,6,2
-301,Case11,Admission,Resource21,124,126,2018.12.1 2:04,2018.12.1 2:06,6,2
-307,Case11,Discharge,Resource23,126,127,2018.12.1 2:06,2018.12.1 2:07,6,1
-291,Case12,Registration,Resource1,122,123,2018.12.1 2:02,2018.12.1 2:03,8,1
-297,Case12,Triage and Assessment,Resource3,123,124,2018.12.1 2:03,2018.12.1 2:04,8,1
-302,Case12,Intravenous,Resource6,124,125,2018.12.1 2:04,2018.12.1 2:05,8,1
-305,Case12,X-ray,Resource10,125,128,2018.12.1 2:05,2018.12.1 2:08,8,3
-312,Case12,Evaluation,Resource14,128,129,2018.12.1 2:08,2018.12.1 2:09,8,1
-314,Case12,Admission,Resource22,129,132,2018.12.1 2:09,2018.12.1 2:12,8,3
-323,Case12,Discharge,Resource24,132,134,2018.12.1 2:12,2018.12.1 2:14,8,2
-322,Case13,Registration,Resource1,132,133,2018.12.1 2:12,2018.12.1 2:13,6,1
-330,Case13,Triage and Assessment,Resource3,135,136,2018.12.1 2:15,2018.12.1 2:16,6,1
-334,Case13,Intravenous,Resource6,137,138,2018.12.1 2:17,2018.12.1 2:18,6,1
-338,Case13,X-ray,Resource8,139,140,2018.12.1 2:19,2018.12.1 2:20,6,1
-344,Case13,Evaluation,Resource14,141,142,2018.12.1 2:21,2018.12.1 2:22,6,1
-352,Case13,Admission,Resource20,144,145,2018.12.1 2:24,2018.12.1 2:25,6,1
-361,Case13,Discharge,Resource23,147,148,2018.12.1 2:27,2018.12.1 2:28,6,1
-346,Case14,Registration,Resource1,142,143,2018.12.1 2:22,2018.12.1 2:23,9,1
-355,Case14,Triage and Assessment,Resource3,145,146,2018.12.1 2:25,2018.12.1 2:26,9,1
-359,Case14,Intravenous,Resource6,146,147,2018.12.1 2:26,2018.12.1 2:27,9,1
-362,Case14,X-ray,Resource9,147,149,2018.12.1 2:27,2018.12.1 2:29,9,2
-366,Case14,Evaluation,Resource15,150,152,2018.12.1 2:30,2018.12.1 2:32,9,2
-373,Case14,Admission,Resource20,152,153,2018.12.1 2:32,2018.12.1 2:33,9,1
-380,Case14,Discharge,Resource23,155,156,2018.12.1 2:35,2018.12.1 2:36,9,1
-372,Case15,Registration,Resource1,152,153,2018.12.1 2:32,2018.12.1 2:33,3,1
-378,Case15,Triage and Assessment,Resource3,154,155,2018.12.1 2:34,2018.12.1 2:35,3,1
-382,Case15,Intravenous,Resource7,155,157,2018.12.1 2:35,2018.12.1 2:37,3,2
-387,Case15,X-ray,Resource8,157,158,2018.12.1 2:37,2018.12.1 2:38,3,1
-389,Case15,Evaluation,Resource16,158,161,2018.12.1 2:38,2018.12.1 2:41,3,3
-398,Case15,Admission,Resource22,161,164,2018.12.1 2:41,2018.12.1 2:44,3,3
-412,Case15,Discharge,Resource23,166,167,2018.12.1 2:46,2018.12.1 2:47,3,1
-394,Case16,Registration,Resource2,160,162,2018.12.1 2:40,2018.12.1 2:42,5,2
-402,Case16,Triage and Assessment,Resource3,162,163,2018.12.1 2:42,2018.12.1 2:43,5,1
-405,Case16,Intravenous,Resource6,163,164,2018.12.1 2:43,2018.12.1 2:44,5,1
-408,Case16,X-ray,Resource9,164,166,2018.12.1 2:44,2018.12.1 2:46,5,2
-413,Case16,Evaluation,Resource14,166,167,2018.12.1 2:46,2018.12.1 2:47,5,1
-421,Case16,Admission,Resource22,169,172,2018.12.1 2:49,2018.12.1 2:52,5,3
-436,Case16,Discharge,Resource23,174,175,2018.12.1 2:54,2018.12.1 2:55,5,1
-428,Case17,Registration,Resource1,171,172,2018.12.1 2:51,2018.12.1 2:52,7,1
-432,Case17,Triage and Assessment,Resource3,172,173,2018.12.1 2:52,2018.12.1 2:53,7,1
-435,Case17,Intravenous,Resource6,173,174,2018.12.1 2:53,2018.12.1 2:54,7,1
-437,Case17,X-ray,Resource8,174,175,2018.12.1 2:54,2018.12.1 2:55,7,1
-440,Case17,Evaluation,Resource14,175,176,2018.12.1 2:55,2018.12.1 2:56,7,1
-443,Case17,Admission,Resource20,177,178,2018.12.1 2:57,2018.12.1 2:58,7,1
-447,Case17,Discharge,Resource23,179,180,2018.12.1 2:59,2018.12.1 3:00,7,1
-450,Case18,Registration,Resource2,180,182,2018.12.1 3:00,2018.12.1 3:02,5,2
-456,Case18,Triage and Assessment,Resource5,182,185,2018.12.1 3:02,2018.12.1 3:05,5,3
-464,Case18,Intravenous,Resource6,185,186,2018.12.1 3:05,2018.12.1 3:06,5,1
-470,Case18,X-ray,Resource10,188,191,2018.12.1 3:08,2018.12.1 3:11,5,3
-484,Case18,Evaluation,Resource15,193,195,2018.12.1 3:13,2018.12.1 3:15,5,2
-490,Case18,Admission,Resource20,195,196,2018.12.1 3:15,2018.12.1 3:16,5,1
-493,Case18,Discharge,Resource23,196,197,2018.12.1 3:16,2018.12.1 3:17,5,1
-475,Case19,Registration,Resource2,190,192,2018.12.1 3:10,2018.12.1 3:12,4,2
-485,Case19,Triage and Assessment,Resource4,193,195,2018.12.1 3:13,2018.12.1 3:15,4,2
-495,Case19,Intravenous,Resource6,197,198,2018.12.1 3:17,2018.12.1 3:18,4,1
-498,Case19,X-ray,Resource9,198,200,2018.12.1 3:18,2018.12.1 3:20,4,2
-505,Case19,Evaluation,Resource14,201,202,2018.12.1 3:21,2018.12.1 3:22,4,1
-515,Case19,Admission,Resource21,204,206,2018.12.1 3:24,2018.12.1 3:26,4,2
-525,Case19,Discharge,Resource24,208,210,2018.12.1 3:28,2018.12.1 3:30,4,2
-18,Case2,Registration,Resource2,20,22,2018.12.1 0:20,2018.12.1 0:22,10,2
-25,Case2,Triage and Assessment,Resource3,22,23,2018.12.1 0:22,2018.12.1 0:23,10,1
-32,Case2,Intravenous,Resource7,25,27,2018.12.1 0:25,2018.12.1 0:27,10,2
-42,Case2,X-ray,Resource8,29,30,2018.12.1 0:29,2018.12.1 0:30,10,1
-46,Case2,Evaluation,Resource14,31,32,2018.12.1 0:31,2018.12.1 0:32,10,1
-50,Case2,Admission,Resource20,32,33,2018.12.1 0:32,2018.12.1 0:33,10,1
-59,Case2,Discharge,Resource23,35,36,2018.12.1 0:35,2018.12.1 0:36,10,1
-503,Case20,Registration,Resource2,200,202,2018.12.1 3:20,2018.12.1 3:22,8,2
-513,Case20,Triage and Assessment,Resource3,203,204,2018.12.1 3:23,2018.12.1 3:24,8,1
-516,Case20,Intravenous,Resource6,204,205,2018.12.1 3:24,2018.12.1 3:25,8,1
-520,Case20,X-ray,Resource10,205,208,2018.12.1 3:25,2018.12.1 3:28,8,3
-526,Case20,Evaluation,Resource15,208,210,2018.12.1 3:28,2018.12.1 3:30,8,2
-531,Case20,Admission,Resource22,210,213,2018.12.1 3:30,2018.12.1 3:33,8,3
-535,Case20,Discharge,Resource25,213,216,2018.12.1 3:33,2018.12.1 3:36,8,3
-2,Case21,Registration,Resource1,11,12,2018.12.1 0:11,2018.12.1 0:12,8,1
-5,Case21,Triage and Assessment,Resource4,12,14,2018.12.1 0:12,2018.12.1 0:14,8,2
-9,Case21,Intravenous,Resource7,14,16,2018.12.1 0:14,2018.12.1 0:16,8,2
-12,Case21,MRI,Resource9,16,22,2018.12.1 0:16,2018.12.1 0:22,8,6
-24,Case21,Evaluation,Resource16,22,25,2018.12.1 0:22,2018.12.1 0:25,8,3
-33,Case21,Admission,Resource22,25,28,2018.12.1 0:25,2018.12.1 0:28,8,3
-41,Case21,Discharge,Resource23,28,29,2018.12.1 0:28,2018.12.1 0:29,8,1
-23,Case22,Registration,Resource1,22,23,2018.12.1 0:22,2018.12.1 0:23,3,1
-28,Case22,Triage and Assessment,Resource3,23,24,2018.12.1 0:23,2018.12.1 0:24,3,1
-31,Case22,Intravenous,Resource6,24,25,2018.12.1 0:24,2018.12.1 0:25,3,1
-37,Case22,MRI,Resource10,27,34,2018.12.1 0:27,2018.12.1 0:34,3,7
-61,Case22,Evaluation,Resource15,36,38,2018.12.1 0:36,2018.12.1 0:38,3,2
-68,Case22,Admission,Resource20,39,40,2018.12.1 0:39,2018.12.1 0:40,3,1
-71,Case22,Discharge,Resource23,40,41,2018.12.1 0:40,2018.12.1 0:41,3,1
-49,Case23,Registration,Resource1,32,33,2018.12.1 0:32,2018.12.1 0:33,9,1
-57,Case23,Triage and Assessment,Resource3,34,35,2018.12.1 0:34,2018.12.1 0:35,9,1
-64,Case23,Intravenous,Resource7,37,39,2018.12.1 0:37,2018.12.1 0:39,9,2
-69,Case23,MRI,Resource11,39,47,2018.12.1 0:39,2018.12.1 0:47,9,8
-90,Case23,Evaluation,Resource15,47,49,2018.12.1 0:47,2018.12.1 0:49,9,2
-95,Case23,Admission,Resource21,50,52,2018.12.1 0:50,2018.12.1 0:52,9,2
-103,Case23,Discharge,Resource24,52,54,2018.12.1 0:52,2018.12.1 0:54,9,2
-75,Case24,Registration,Resource1,41,42,2018.12.1 0:41,2018.12.1 0:42,10,1
-81,Case24,Triage and Assessment,Resource5,43,46,2018.12.1 0:43,2018.12.1 0:46,10,3
-92,Case24,Intravenous,Resource7,48,50,2018.12.1 0:48,2018.12.1 0:50,10,2
-99,Case24,MRI,Resource12,51,60,2018.12.1 0:51,2018.12.1 1:00,10,9
-121,Case24,Evaluation,Resource15,60,62,2018.12.1 1:00,2018.12.1 1:02,10,2
-129,Case24,Admission,Resource22,62,65,2018.12.1 1:02,2018.12.1 1:05,10,3
-138,Case24,Discharge,Resource24,65,67,2018.12.1 1:05,2018.12.1 1:07,10,2
-100,Case25,Registration,Resource1,51,52,2018.12.1 0:51,2018.12.1 0:52,7,1
-105,Case25,Triage and Assessment,Resource3,52,53,2018.12.1 0:52,2018.12.1 0:53,7,1
-108,Case25,Intravenous,Resource6,53,54,2018.12.1 0:53,2018.12.1 0:54,7,1
-115,Case25,MRI,Resource13,56,66,2018.12.1 0:56,2018.12.1 1:06,7,10
-145,Case25,Evaluation,Resource15,68,70,2018.12.1 1:08,2018.12.1 1:10,7,2
-153,Case25,Admission,Resource22,71,74,2018.12.1 1:11,2018.12.1 1:14,7,3
-169,Case25,Discharge,Resource23,76,77,2018.12.1 1:16,2018.12.1 1:17,7,1
-126,Case26,Registration,Resource1,61,62,2018.12.1 1:01,2018.12.1 1:02,8,1
-130,Case26,Triage and Assessment,Resource3,62,63,2018.12.1 1:02,2018.12.1 1:03,8,1
-137,Case26,Intravenous,Resource6,65,66,2018.12.1 1:05,2018.12.1 1:06,8,1
-142,Case26,MRI,Resource9,66,72,2018.12.1 1:06,2018.12.1 1:12,8,6
-163,Case26,Evaluation,Resource15,74,76,2018.12.1 1:14,2018.12.1 1:16,8,2
-170,Case26,Admission,Resource21,76,78,2018.12.1 1:16,2018.12.1 1:18,8,2
-176,Case26,Discharge,Resource25,79,82,2018.12.1 1:19,2018.12.1 1:22,8,3
-151,Case27,Registration,Resource2,70,72,2018.12.1 1:10,2018.12.1 1:12,8,2
-159,Case27,Triage and Assessment,Resource3,72,73,2018.12.1 1:12,2018.12.1 1:13,8,1
-164,Case27,Intravenous,Resource6,74,75,2018.12.1 1:14,2018.12.1 1:15,8,1
-168,Case27,MRI,Resource11,75,83,2018.12.1 1:15,2018.12.1 1:23,8,8
-193,Case27,Evaluation,Resource16,85,88,2018.12.1 1:25,2018.12.1 1:28,8,3
-205,Case27,Admission,Resource20,90,91,2018.12.1 1:30,2018.12.1 1:31,8,1
-215,Case27,Discharge,Resource23,93,94,2018.12.1 1:33,2018.12.1 1:34,8,1
-183,Case28,Registration,Resource1,82,83,2018.12.1 1:22,2018.12.1 1:23,1,1
-190,Case28,Triage and Assessment,Resource3,84,85,2018.12.1 1:24,2018.12.1 1:25,1,1
-195,Case28,Intravenous,Resource7,85,87,2018.12.1 1:25,2018.12.1 1:27,1,2
-200,Case28,MRI,Resource12,87,96,2018.12.1 1:27,2018.12.1 1:36,1,9
-226,Case28,Evaluation,Resource15,97,99,2018.12.1 1:37,2018.12.1 1:39,1,2
-231,Case28,Admission,Resource20,100,101,2018.12.1 1:40,2018.12.1 1:41,1,1
-241,Case28,Discharge,Resource23,103,104,2018.12.1 1:43,2018.12.1 1:44,1,1
-211,Case29,Registration,Resource1,92,93,2018.12.1 1:32,2018.12.1 1:33,6,1
-220,Case29,Triage and Assessment,Resource3,94,95,2018.12.1 1:34,2018.12.1 1:35,6,1
-223,Case29,Intravenous,Resource6,95,96,2018.12.1 1:35,2018.12.1 1:36,6,1
-228,Case29,MRI,Resource13,98,108,2018.12.1 1:38,2018.12.1 1:48,6,10
-255,Case29,Evaluation,Resource14,109,110,2018.12.1 1:49,2018.12.1 1:50,6,1
-260,Case29,Admission,Resource20,111,112,2018.12.1 1:51,2018.12.1 1:52,6,1
-270,Case29,Discharge,Resource23,114,115,2018.12.1 1:54,2018.12.1 1:55,6,1
-44,Case3,Registration,Resource2,30,32,2018.12.1 0:30,2018.12.1 0:32,3,2
-51,Case3,Triage and Assessment,Resource3,32,33,2018.12.1 0:32,2018.12.1 0:33,3,1
-54,Case3,Intravenous,Resource6,33,34,2018.12.1 0:33,2018.12.1 0:34,3,1
-58,Case3,X-ray,Resource9,34,36,2018.12.1 0:34,2018.12.1 0:36,3,2
-66,Case3,Evaluation,Resource16,38,41,2018.12.1 0:38,2018.12.1 0:41,3,3
-76,Case3,Admission,Resource22,41,44,2018.12.1 0:41,2018.12.1 0:44,3,3
-83,Case3,Discharge,Resource23,44,45,2018.12.1 0:44,2018.12.1 0:45,3,1
-238,Case30,Registration,Resource1,102,103,2018.12.1 1:42,2018.12.1 1:43,8,1
-243,Case30,Triage and Assessment,Resource3,103,104,2018.12.1 1:43,2018.12.1 1:44,8,1
-248,Case30,Intravenous,Resource7,106,108,2018.12.1 1:46,2018.12.1 1:48,8,2
-256,Case30,MRI,Resource11,110,118,2018.12.1 1:50,2018.12.1 1:58,8,8
-282,Case30,Evaluation,Resource14,119,120,2018.12.1 1:59,2018.12.1 2:00,8,1
-288,Case30,Admission,Resource22,121,124,2018.12.1 2:01,2018.12.1 2:04,8,3
-306,Case30,Discharge,Resource24,126,128,2018.12.1 2:06,2018.12.1 2:08,8,2
-261,Case31,Registration,Resource1,111,112,2018.12.1 1:51,2018.12.1 1:52,10,1
-266,Case31,Triage and Assessment,Resource3,112,113,2018.12.1 1:52,2018.12.1 1:53,10,1
-269,Case31,Intravenous,Resource6,113,114,2018.12.1 1:53,2018.12.1 1:54,10,1
-276,Case31,MRI,Resource8,116,121,2018.12.1 1:56,2018.12.1 2:01,10,5
-295,Case31,Evaluation,Resource14,123,124,2018.12.1 2:03,2018.12.1 2:04,10,1
-304,Case31,Admission,Resource20,125,126,2018.12.1 2:05,2018.12.1 2:06,10,1
-311,Case31,Discharge,Resource23,128,129,2018.12.1 2:08,2018.12.1 2:09,10,1
-286,Case32,Registration,Resource2,120,122,2018.12.1 2:00,2018.12.1 2:02,10,2
-296,Case32,Triage and Assessment,Resource5,123,126,2018.12.1 2:03,2018.12.1 2:06,10,3
-308,Case32,Intravenous,Resource7,126,128,2018.12.1 2:06,2018.12.1 2:08,10,2
-315,Case32,MRI,Resource12,130,139,2018.12.1 2:10,2018.12.1 2:19,10,9
-340,Case32,Evaluation,Resource15,140,142,2018.12.1 2:20,2018.12.1 2:22,10,2
-347,Case32,Admission,Resource22,142,145,2018.12.1 2:22,2018.12.1 2:25,10,3
-356,Case32,Discharge,Resource25,145,148,2018.12.1 2:25,2018.12.1 2:28,10,3
-317,Case33,Registration,Resource2,130,132,2018.12.1 2:10,2018.12.1 2:12,8,2
-328,Case33,Triage and Assessment,Resource5,134,137,2018.12.1 2:14,2018.12.1 2:17,8,3
-336,Case33,Intravenous,Resource7,138,140,2018.12.1 2:18,2018.12.1 2:20,8,2
-341,Case33,MRI,Resource13,140,150,2018.12.1 2:20,2018.12.1 2:30,8,10
-370,Case33,Evaluation,Resource16,151,154,2018.12.1 2:31,2018.12.1 2:34,8,3
-383,Case33,Admission,Resource22,156,159,2018.12.1 2:36,2018.12.1 2:39,8,3
-391,Case33,Discharge,Resource25,159,162,2018.12.1 2:39,2018.12.1 2:42,8,3
-342,Case34,Registration,Resource2,140,142,2018.12.1 2:20,2018.12.1 2:22,9,2
-351,Case34,Triage and Assessment,Resource5,143,146,2018.12.1 2:23,2018.12.1 2:26,9,3
-363,Case34,Intravenous,Resource7,148,150,2018.12.1 2:28,2018.12.1 2:30,9,2
-367,Case34,MRI,Resource11,150,158,2018.12.1 2:30,2018.12.1 2:38,9,8
-390,Case34,Evaluation,Resource14,159,160,2018.12.1 2:39,2018.12.1 2:40,9,1
-393,Case34,Admission,Resource21,160,162,2018.12.1 2:40,2018.12.1 2:42,9,2
-406,Case34,Discharge,Resource25,164,167,2018.12.1 2:44,2018.12.1 2:47,9,3
-368,Case35,Registration,Resource2,150,152,2018.12.1 2:30,2018.12.1 2:32,3,2
-374,Case35,Triage and Assessment,Resource4,152,154,2018.12.1 2:32,2018.12.1 2:34,3,2
-379,Case35,Intravenous,Resource6,154,155,2018.12.1 2:34,2018.12.1 2:35,3,1
-384,Case35,MRI,Resource10,156,163,2018.12.1 2:36,2018.12.1 2:43,3,7
-409,Case35,Evaluation,Resource15,165,167,2018.12.1 2:45,2018.12.1 2:47,3,2
-416,Case35,Admission,Resource20,167,168,2018.12.1 2:47,2018.12.1 2:48,3,1
-422,Case35,Discharge,Resource24,170,172,2018.12.1 2:50,2018.12.1 2:52,3,2
-397,Case36,Registration,Resource1,161,162,2018.12.1 2:41,2018.12.1 2:42,10,1
-404,Case36,Triage and Assessment,Resource5,163,166,2018.12.1 2:43,2018.12.1 2:46,10,3
-418,Case36,Intravenous,Resource7,168,170,2018.12.1 2:48,2018.12.1 2:50,10,2
-423,Case36,MRI,Resource12,170,179,2018.12.1 2:50,2018.12.1 2:59,10,9
-449,Case36,Evaluation,Resource16,180,183,2018.12.1 3:00,2018.12.1 3:03,10,3
-458,Case36,Admission,Resource21,183,185,2018.12.1 3:03,2018.12.1 3:05,10,2
-463,Case36,Discharge,Resource25,185,188,2018.12.1 3:05,2018.12.1 3:08,10,3
-425,Case37,Registration,Resource2,170,172,2018.12.1 2:50,2018.12.1 2:52,10,2
-434,Case37,Triage and Assessment,Resource5,173,176,2018.12.1 2:53,2018.12.1 2:56,10,3
-442,Case37,Intravenous,Resource7,176,178,2018.12.1 2:56,2018.12.1 2:58,10,2
-446,Case37,MRI,Resource13,178,188,2018.12.1 2:58,2018.12.1 3:08,10,10
-471,Case37,Evaluation,Resource15,188,190,2018.12.1 3:08,2018.12.1 3:10,10,2
-477,Case37,Admission,Resource22,191,194,2018.12.1 3:11,2018.12.1 3:14,10,3
-488,Case37,Discharge,Resource24,194,196,2018.12.1 3:14,2018.12.1 3:16,10,2
-455,Case38,Registration,Resource1,182,183,2018.12.1 3:02,2018.12.1 3:03,1,1
-462,Case38,Triage and Assessment,Resource4,185,187,2018.12.1 3:05,2018.12.1 3:07,1,2
-469,Case38,Intravenous,Resource7,187,189,2018.12.1 3:07,2018.12.1 3:09,1,2
-473,Case38,MRI,Resource11,189,197,2018.12.1 3:09,2018.12.1 3:17,1,8
-500,Case38,Evaluation,Resource16,199,202,2018.12.1 3:19,2018.12.1 3:22,1,3
-509,Case38,Admission,Resource22,202,205,2018.12.1 3:22,2018.12.1 3:25,1,3
-519,Case38,Discharge,Resource25,205,208,2018.12.1 3:25,2018.12.1 3:28,1,3
-480,Case39,Registration,Resource1,192,193,2018.12.1 3:12,2018.12.1 3:13,9,1
-489,Case39,Triage and Assessment,Resource3,195,196,2018.12.1 3:15,2018.12.1 3:16,9,1
-497,Case39,Intravenous,Resource7,198,200,2018.12.1 3:18,2018.12.1 3:20,9,2
-502,Case39,MRI,Resource8,200,205,2018.12.1 3:20,2018.12.1 3:25,9,5
-524,Case39,Evaluation,Resource14,207,208,2018.12.1 3:27,2018.12.1 3:28,9,1
-528,Case39,Admission,Resource20,209,210,2018.12.1 3:29,2018.12.1 3:30,9,1
-532,Case39,Discharge,Resource23,211,212,2018.12.1 3:31,2018.12.1 3:32,9,1
-72,Case4,Registration,Resource2,40,42,2018.12.1 0:40,2018.12.1 0:42,4,2
-79,Case4,Triage and Assessment,Resource3,42,43,2018.12.1 0:42,2018.12.1 0:43,4,1
-85,Case4,Intravenous,Resource6,45,46,2018.12.1 0:45,2018.12.1 0:46,4,1
-88,Case4,X-ray,Resource8,46,47,2018.12.1 0:46,2018.12.1 0:47,4,1
-93,Case4,Evaluation,Resource16,49,52,2018.12.1 0:49,2018.12.1 0:52,4,3
-109,Case4,Admission,Resource21,54,56,2018.12.1 0:54,2018.12.1 0:56,4,2
-116,Case4,Discharge,Resource24,56,58,2018.12.1 0:56,2018.12.1 0:58,4,2
-506,Case40,Registration,Resource1,201,202,2018.12.1 3:21,2018.12.1 3:22,7,1
-511,Case40,Triage and Assessment,Resource5,202,205,2018.12.1 3:22,2018.12.1 3:25,7,3
-522,Case40,Intravenous,Resource7,206,208,2018.12.1 3:26,2018.12.1 3:28,7,2
-530,Case40,MRI,Resource12,210,219,2018.12.1 3:30,2018.12.1 3:39,7,9
-538,Case40,Evaluation,Resource14,219,220,2018.12.1 3:39,2018.12.1 3:40,7,1
-539,Case40,Admission,Resource20,220,221,2018.12.1 3:40,2018.12.1 3:41,7,1
-540,Case40,Discharge,Resource23,221,222,2018.12.1 3:41,2018.12.1 3:42,7,1
-1,Case41,Registration,Resource2,10,12,2018.12.1 0:10,2018.12.1 0:12,5,2
-8,Case41,Triage and Assessment,Resource3,14,15,2018.12.1 0:14,2018.12.1 0:15,5,1
-11,Case41,Blood Test,Resource17,16,17,2018.12.1 0:16,2018.12.1 0:17,5,1
-14,Case41,Urine Test,Resource18,17,19,2018.12.1 0:17,2018.12.1 0:19,5,2
-17,Case41,Diagnosis,Resource15,20,22,2018.12.1 0:20,2018.12.1 0:22,5,2
-29,Case41,Admission,Resource21,24,26,2018.12.1 0:24,2018.12.1 0:26,5,2
-36,Case41,Discharge,Resource24,26,28,2018.12.1 0:26,2018.12.1 0:28,5,2
-19,Case42,Registration,Resource1,20,21,2018.12.1 0:20,2018.12.1 0:21,3,1
-22,Case42,Triage and Assessment,Resource4,21,23,2018.12.1 0:21,2018.12.1 0:23,3,2
-30,Case42,Blood Test,Resource17,24,25,2018.12.1 0:24,2018.12.1 0:25,3,1
-34,Case42,Urine Test,Resource18,25,27,2018.12.1 0:25,2018.12.1 0:27,3,2
-39,Case42,Diagnosis,Resource15,27,29,2018.12.1 0:27,2018.12.1 0:29,3,2
-43,Case42,Admission,Resource21,30,32,2018.12.1 0:30,2018.12.1 0:32,3,2
-56,Case42,Discharge,Resource24,34,36,2018.12.1 0:34,2018.12.1 0:36,3,2
-45,Case43,Registration,Resource1,30,31,2018.12.1 0:30,2018.12.1 0:31,7,1
-48,Case43,Triage and Assessment,Resource4,31,33,2018.12.1 0:31,2018.12.1 0:33,7,2
-55,Case43,Blood Test,Resource17,33,34,2018.12.1 0:33,2018.12.1 0:34,7,1
-60,Case43,Urine Test,Resource18,35,37,2018.12.1 0:35,2018.12.1 0:37,7,2
-65,Case43,Diagnosis,Resource14,37,38,2018.12.1 0:37,2018.12.1 0:38,7,1
-67,Case43,Admission,Resource21,38,40,2018.12.1 0:38,2018.12.1 0:40,7,2
-77,Case43,Discharge,Resource24,42,44,2018.12.1 0:42,2018.12.1 0:44,7,2
-73,Case44,Registration,Resource1,40,41,2018.12.1 0:40,2018.12.1 0:41,8,1
-78,Case44,Triage and Assessment,Resource4,42,44,2018.12.1 0:42,2018.12.1 0:44,8,2
-87,Case44,Blood Test,Resource17,46,47,2018.12.1 0:46,2018.12.1 0:47,8,1
-91,Case44,Urine Test,Resource19,47,50,2018.12.1 0:47,2018.12.1 0:50,8,3
-96,Case44,Diagnosis,Resource15,50,52,2018.12.1 0:50,2018.12.1 0:52,8,2
-104,Case44,Admission,Resource20,52,53,2018.12.1 0:52,2018.12.1 0:53,8,1
-112,Case44,Discharge,Resource23,55,56,2018.12.1 0:55,2018.12.1 0:56,8,1
-98,Case45,Registration,Resource1,50,51,2018.12.1 0:50,2018.12.1 0:51,1,1
-101,Case45,Triage and Assessment,Resource4,51,53,2018.12.1 0:51,2018.12.1 0:53,1,2
-110,Case45,Blood Test,Resource17,54,55,2018.12.1 0:54,2018.12.1 0:55,1,1
-117,Case45,Urine Test,Resource19,57,60,2018.12.1 0:57,2018.12.1 1:00,1,3
-122,Case45,Diagnosis,Resource16,60,63,2018.12.1 1:00,2018.12.1 1:03,1,3
-132,Case45,Admission,Resource21,63,65,2018.12.1 1:03,2018.12.1 1:05,1,2
-139,Case45,Discharge,Resource25,65,68,2018.12.1 1:05,2018.12.1 1:08,1,3
-124,Case46,Registration,Resource1,60,61,2018.12.1 1:00,2018.12.1 1:01,7,1
-127,Case46,Triage and Assessment,Resource4,61,63,2018.12.1 1:01,2018.12.1 1:03,7,2
-133,Case46,Blood Test,Resource17,63,64,2018.12.1 1:03,2018.12.1 1:04,7,1
-140,Case46,Urine Test,Resource18,66,68,2018.12.1 1:06,2018.12.1 1:08,7,2
-146,Case46,Diagnosis,Resource16,68,71,2018.12.1 1:08,2018.12.1 1:11,7,3
-155,Case46,Admission,Resource20,71,72,2018.12.1 1:11,2018.12.1 1:12,7,1
-158,Case46,Discharge,Resource24,72,74,2018.12.1 1:12,2018.12.1 1:14,7,2
-154,Case47,Registration,Resource1,71,72,2018.12.1 1:11,2018.12.1 1:12,7,1
-166,Case47,Triage and Assessment,Resource3,75,76,2018.12.1 1:15,2018.12.1 1:16,7,1
-171,Case47,Blood Test,Resource18,76,78,2018.12.1 1:16,2018.12.1 1:18,7,2
-175,Case47,Urine Test,Resource19,78,81,2018.12.1 1:18,2018.12.1 1:21,7,3
-185,Case47,Diagnosis,Resource14,83,84,2018.12.1 1:23,2018.12.1 1:24,7,1
-196,Case47,Admission,Resource20,86,87,2018.12.1 1:26,2018.12.1 1:27,7,1
-199,Case47,Discharge,Resource24,87,89,2018.12.1 1:27,2018.12.1 1:29,7,2
-179,Case48,Registration,Resource1,80,81,2018.12.1 1:20,2018.12.1 1:21,7,1
-182,Case48,Triage and Assessment,Resource4,81,83,2018.12.1 1:21,2018.12.1 1:23,7,2
-188,Case48,Blood Test,Resource17,83,84,2018.12.1 1:23,2018.12.1 1:24,7,1
-192,Case48,Urine Test,Resource18,84,86,2018.12.1 1:24,2018.12.1 1:26,7,2
-201,Case48,Diagnosis,Resource15,88,90,2018.12.1 1:28,2018.12.1 1:30,7,2
-208,Case48,Admission,Resource21,91,93,2018.12.1 1:31,2018.12.1 1:33,7,2
-222,Case48,Discharge,Resource23,95,96,2018.12.1 1:35,2018.12.1 1:36,7,1
-207,Case49,Registration,Resource1,90,91,2018.12.1 1:30,2018.12.1 1:31,10,1
-212,Case49,Triage and Assessment,Resource4,92,94,2018.12.1 1:32,2018.12.1 1:34,10,2
-224,Case49,Blood Test,Resource18,96,98,2018.12.1 1:36,2018.12.1 1:38,10,2
-229,Case49,Urine Test,Resource19,98,101,2018.12.1 1:38,2018.12.1 1:41,10,3
-239,Case49,Diagnosis,Resource16,102,105,2018.12.1 1:42,2018.12.1 1:45,10,3
-247,Case49,Admission,Resource22,105,108,2018.12.1 1:45,2018.12.1 1:48,10,3
-253,Case49,Discharge,Resource24,108,110,2018.12.1 1:48,2018.12.1 1:50,10,2
-97,Case5,Registration,Resource2,50,52,2018.12.1 0:50,2018.12.1 0:52,9,2
-107,Case5,Triage and Assessment,Resource5,53,56,2018.12.1 0:53,2018.12.1 0:56,9,3
-119,Case5,Intravenous,Resource7,58,60,2018.12.1 0:58,2018.12.1 1:00,9,2
-125,Case5,X-ray,Resource10,61,64,2018.12.1 1:01,2018.12.1 1:04,9,3
-135,Case5,Evaluation,Resource14,64,65,2018.12.1 1:04,2018.12.1 1:05,9,1
-143,Case5,Admission,Resource20,67,68,2018.12.1 1:07,2018.12.1 1:08,9,1
-147,Case5,Discharge,Resource23,69,70,2018.12.1 1:09,2018.12.1 1:10,9,1
-233,Case50,Registration,Resource1,100,101,2018.12.1 1:40,2018.12.1 1:41,3,1
-237,Case50,Triage and Assessment,Resource4,101,103,2018.12.1 1:41,2018.12.1 1:43,3,2
-245,Case50,Blood Test,Resource17,104,105,2018.12.1 1:44,2018.12.1 1:45,3,1
-251,Case50,Urine Test,Resource19,107,110,2018.12.1 1:47,2018.12.1 1:50,3,3
-257,Case50,Diagnosis,Resource16,110,113,2018.12.1 1:50,2018.12.1 1:53,3,3
-273,Case50,Admission,Resource20,115,116,2018.12.1 1:55,2018.12.1 1:56,3,1
-277,Case50,Discharge,Resource24,116,118,2018.12.1 1:56,2018.12.1 1:58,3,2
-259,Case51,Registration,Resource1,110,111,2018.12.1 1:50,2018.12.1 1:51,7,1
-264,Case51,Triage and Assessment,Resource4,112,114,2018.12.1 1:52,2018.12.1 1:54,7,2
-272,Case51,Blood Test,Resource17,114,115,2018.12.1 1:54,2018.12.1 1:55,7,1
-275,Case51,Urine Test,Resource18,115,117,2018.12.1 1:55,2018.12.1 1:57,7,2
-280,Case51,Diagnosis,Resource15,117,119,2018.12.1 1:57,2018.12.1 1:59,7,2
-284,Case51,Admission,Resource21,120,122,2018.12.1 2:00,2018.12.1 2:02,7,2
-299,Case51,Discharge,Resource25,124,127,2018.12.1 2:04,2018.12.1 2:07,7,3
-289,Case52,Registration,Resource1,121,122,2018.12.1 2:01,2018.12.1 2:02,1,1
-294,Case52,Triage and Assessment,Resource3,122,123,2018.12.1 2:02,2018.12.1 2:03,1,1
-300,Case52,Blood Test,Resource18,124,126,2018.12.1 2:04,2018.12.1 2:06,1,2
-310,Case52,Urine Test,Resource19,127,130,2018.12.1 2:07,2018.12.1 2:10,1,3
-319,Case52,Diagnosis,Resource15,131,133,2018.12.1 2:11,2018.12.1 2:13,1,2
-326,Case52,Admission,Resource21,133,135,2018.12.1 2:13,2018.12.1 2:15,1,2
-331,Case52,Discharge,Resource25,135,138,2018.12.1 2:15,2018.12.1 2:18,1,3
-320,Case53,Registration,Resource1,131,132,2018.12.1 2:11,2018.12.1 2:12,5,1
-324,Case53,Triage and Assessment,Resource3,132,133,2018.12.1 2:12,2018.12.1 2:13,5,1
-327,Case53,Blood Test,Resource17,133,134,2018.12.1 2:13,2018.12.1 2:14,5,1
-332,Case53,Urine Test,Resource19,136,139,2018.12.1 2:16,2018.12.1 2:19,5,3
-339,Case53,Diagnosis,Resource16,139,142,2018.12.1 2:19,2018.12.1 2:22,5,3
-348,Case53,Admission,Resource21,142,144,2018.12.1 2:22,2018.12.1 2:24,5,2
-353,Case53,Discharge,Resource24,144,146,2018.12.1 2:24,2018.12.1 2:26,5,2
-345,Case54,Registration,Resource1,141,142,2018.12.1 2:21,2018.12.1 2:22,3,1
-349,Case54,Triage and Assessment,Resource4,142,144,2018.12.1 2:22,2018.12.1 2:24,3,2
-358,Case54,Blood Test,Resource18,146,148,2018.12.1 2:26,2018.12.1 2:28,3,2
-365,Case54,Urine Test,Resource19,149,152,2018.12.1 2:29,2018.12.1 2:32,3,3
-377,Case54,Diagnosis,Resource14,154,155,2018.12.1 2:34,2018.12.1 2:35,3,1
-386,Case54,Admission,Resource21,157,159,2018.12.1 2:37,2018.12.1 2:39,3,2
-396,Case54,Discharge,Resource24,161,163,2018.12.1 2:41,2018.12.1 2:43,3,2
-371,Case55,Registration,Resource1,151,152,2018.12.1 2:31,2018.12.1 2:32,2,1
-376,Case55,Triage and Assessment,Resource5,153,156,2018.12.1 2:33,2018.12.1 2:36,2,3
-388,Case55,Blood Test,Resource18,158,160,2018.12.1 2:38,2018.12.1 2:40,2,2
-400,Case55,Urine Test,Resource19,162,165,2018.12.1 2:42,2018.12.1 2:45,2,3
-415,Case55,Diagnosis,Resource16,167,170,2018.12.1 2:47,2018.12.1 2:50,2,3
-427,Case55,Admission,Resource21,171,173,2018.12.1 2:51,2018.12.1 2:53,2,2
-439,Case55,Discharge,Resource24,175,177,2018.12.1 2:55,2018.12.1 2:57,2,2
-395,Case56,Registration,Resource1,160,161,2018.12.1 2:40,2018.12.1 2:41,1,1
-399,Case56,Triage and Assessment,Resource4,161,163,2018.12.1 2:41,2018.12.1 2:43,1,2
-407,Case56,Blood Test,Resource17,164,165,2018.12.1 2:44,2018.12.1 2:45,1,1
-411,Case56,Urine Test,Resource18,165,167,2018.12.1 2:45,2018.12.1 2:47,1,2
-417,Case56,Diagnosis,Resource14,167,168,2018.12.1 2:47,2018.12.1 2:48,1,1
-420,Case56,Admission,Resource21,168,170,2018.12.1 2:48,2018.12.1 2:50,1,2
-430,Case56,Discharge,Resource25,172,175,2018.12.1 2:52,2018.12.1 2:55,1,3
-433,Case57,Registration,Resource1,173,174,2018.12.1 2:53,2018.12.1 2:54,10,1
-441,Case57,Triage and Assessment,Resource3,176,177,2018.12.1 2:56,2018.12.1 2:57,10,1
-445,Case57,Blood Test,Resource17,178,179,2018.12.1 2:58,2018.12.1 2:59,10,1
-448,Case57,Urine Test,Resource18,179,181,2018.12.1 2:59,2018.12.1 3:01,10,2
-457,Case57,Diagnosis,Resource14,183,184,2018.12.1 3:03,2018.12.1 3:04,10,1
-461,Case57,Admission,Resource20,184,185,2018.12.1 3:04,2018.12.1 3:05,10,1
-468,Case57,Discharge,Resource23,187,188,2018.12.1 3:07,2018.12.1 3:08,10,1
-451,Case58,Registration,Resource1,180,181,2018.12.1 3:00,2018.12.1 3:01,3,1
-454,Case58,Triage and Assessment,Resource4,181,183,2018.12.1 3:01,2018.12.1 3:03,3,2
-459,Case58,Blood Test,Resource19,183,186,2018.12.1 3:03,2018.12.1 3:06,3,3
-467,Case58,Urine Test,Resource18,186,188,2018.12.1 3:06,2018.12.1 3:08,3,2
-474,Case58,Diagnosis,Resource14,190,191,2018.12.1 3:10,2018.12.1 3:11,3,1
-479,Case58,Admission,Resource20,191,192,2018.12.1 3:11,2018.12.1 3:12,3,1
-487,Case58,Discharge,Resource23,194,195,2018.12.1 3:14,2018.12.1 3:15,3,1
-476,Case59,Registration,Resource1,190,191,2018.12.1 3:10,2018.12.1 3:11,1,1
-481,Case59,Triage and Assessment,Resource3,192,193,2018.12.1 3:12,2018.12.1 3:13,1,1
-486,Case59,Blood Test,Resource19,193,196,2018.12.1 3:13,2018.12.1 3:16,1,3
-494,Case59,Urine Test,Resource18,196,198,2018.12.1 3:16,2018.12.1 3:18,1,2
-501,Case59,Diagnosis,Resource15,200,202,2018.12.1 3:20,2018.12.1 3:22,1,2
-510,Case59,Admission,Resource20,202,203,2018.12.1 3:22,2018.12.1 3:23,1,1
-518,Case59,Discharge,Resource23,205,206,2018.12.1 3:25,2018.12.1 3:26,1,1
-123,Case6,Registration,Resource2,60,62,2018.12.1 1:00,2018.12.1 1:02,3,2
-134,Case6,Triage and Assessment,Resource5,64,67,2018.12.1 1:04,2018.12.1 1:07,3,3
-144,Case6,Intravenous,Resource7,67,69,2018.12.1 1:07,2018.12.1 1:09,3,2
-149,Case6,X-ray,Resource8,70,71,2018.12.1 1:10,2018.12.1 1:11,3,1
-160,Case6,Evaluation,Resource14,73,74,2018.12.1 1:13,2018.12.1 1:14,3,1
-165,Case6,Admission,Resource20,74,75,2018.12.1 1:14,2018.12.1 1:15,3,1
-172,Case6,Discharge,Resource24,77,79,2018.12.1 1:17,2018.12.1 1:19,3,2
-504,Case60,Registration,Resource1,200,201,2018.12.1 3:20,2018.12.1 3:21,6,1
-507,Case60,Triage and Assessment,Resource4,201,203,2018.12.1 3:21,2018.12.1 3:23,6,2
-514,Case60,Blood Test,Resource17,203,204,2018.12.1 3:23,2018.12.1 3:24,6,1
-521,Case60,Urine Test,Resource19,206,209,2018.12.1 3:26,2018.12.1 3:29,6,3
-529,Case60,Diagnosis,Resource14,209,210,2018.12.1 3:29,2018.12.1 3:30,6,1
-534,Case60,Admission,Resource20,212,213,2018.12.1 3:32,2018.12.1 3:33,6,1
-537,Case60,Discharge,Resource23,214,215,2018.12.1 3:34,2018.12.1 3:35,6,1
-4,Case61,Registration,Resource1,12,13,2018.12.1 0:12,2018.12.1 0:13,7,1
-7,Case61,Triage and Assessment,Resource5,13,16,2018.12.1 0:13,2018.12.1 0:16,7,3
-15,Case61,Blood Test,Resource19,18,21,2018.12.1 0:18,2018.12.1 0:21,7,3
-26,Case61,Diagnosis,Resource14,23,24,2018.12.1 0:23,2018.12.1 0:24,7,1
-35,Case61,Admission,Resource20,26,27,2018.12.1 0:26,2018.12.1 0:27,7,1
-38,Case61,Discharge,Resource25,27,30,2018.12.1 0:27,2018.12.1 0:30,7,3
-21,Case62,Registration,Resource1,21,22,2018.12.1 0:21,2018.12.1 0:22,9,1
-27,Case62,Triage and Assessment,Resource5,23,26,2018.12.1 0:23,2018.12.1 0:26,9,3
-40,Case62,Blood Test,Resource19,28,31,2018.12.1 0:28,2018.12.1 0:31,9,3
-52,Case62,Diagnosis,Resource16,33,36,2018.12.1 0:33,2018.12.1 0:36,9,3
-62,Case62,Admission,Resource22,36,39,2018.12.1 0:36,2018.12.1 0:39,9,3
-70,Case62,Discharge,Resource25,40,43,2018.12.1 0:40,2018.12.1 0:43,9,3
-47,Case63,Registration,Resource1,31,32,2018.12.1 0:31,2018.12.1 0:32,1,1
-53,Case63,Triage and Assessment,Resource5,33,36,2018.12.1 0:33,2018.12.1 0:36,1,3
-63,Case63,Blood Test,Resource19,36,39,2018.12.1 0:36,2018.12.1 0:39,1,3
-74,Case63,Diagnosis,Resource14,41,42,2018.12.1 0:41,2018.12.1 0:42,1,1
-82,Case63,Admission,Resource20,44,45,2018.12.1 0:44,2018.12.1 0:45,1,1
-86,Case63,Discharge,Resource25,45,48,2018.12.1 0:45,2018.12.1 0:48,1,3
-80,Case64,Registration,Resource1,43,44,2018.12.1 0:43,2018.12.1 0:44,2,1
-84,Case64,Triage and Assessment,Resource3,44,45,2018.12.1 0:44,2018.12.1 0:45,2,1
-89,Case64,Blood Test,Resource18,47,49,2018.12.1 0:47,2018.12.1 0:49,2,2
-94,Case64,Diagnosis,Resource14,49,50,2018.12.1 0:49,2018.12.1 0:50,2,1
-102,Case64,Admission,Resource22,52,55,2018.12.1 0:52,2018.12.1 0:55,2,3
-113,Case64,Discharge,Resource25,55,58,2018.12.1 0:55,2018.12.1 0:58,2,3
-106,Case65,Registration,Resource1,53,54,2018.12.1 0:53,2018.12.1 0:54,8,1
-111,Case65,Triage and Assessment,Resource3,54,55,2018.12.1 0:54,2018.12.1 0:55,8,1
-114,Case65,Blood Test,Resource18,55,57,2018.12.1 0:55,2018.12.1 0:57,8,2
-118,Case65,Diagnosis,Resource14,57,58,2018.12.1 0:57,2018.12.1 0:58,8,1
-120,Case65,Admission,Resource20,59,60,2018.12.1 0:59,2018.12.1 1:00,8,1
-128,Case65,Discharge,Resource23,62,63,2018.12.1 1:02,2018.12.1 1:03,8,1
-131,Case66,Registration,Resource1,63,64,2018.12.1 1:03,2018.12.1 1:04,9,1
-136,Case66,Triage and Assessment,Resource3,64,65,2018.12.1 1:04,2018.12.1 1:05,9,1
-141,Case66,Blood Test,Resource19,66,69,2018.12.1 1:06,2018.12.1 1:09,9,3
-148,Case66,Diagnosis,Resource14,69,70,2018.12.1 1:09,2018.12.1 1:10,9,1
-150,Case66,Admission,Resource21,70,72,2018.12.1 1:10,2018.12.1 1:12,9,2
-161,Case66,Discharge,Resource25,73,76,2018.12.1 1:13,2018.12.1 1:16,9,3
-152,Case67,Registration,Resource1,70,71,2018.12.1 1:10,2018.12.1 1:11,9,1
-157,Case67,Triage and Assessment,Resource4,72,74,2018.12.1 1:12,2018.12.1 1:14,9,2
-167,Case67,Blood Test,Resource17,75,76,2018.12.1 1:15,2018.12.1 1:16,9,1
-173,Case67,Diagnosis,Resource16,77,80,2018.12.1 1:17,2018.12.1 1:20,9,3
-180,Case67,Admission,Resource22,81,84,2018.12.1 1:21,2018.12.1 1:24,9,3
-191,Case67,Discharge,Resource23,84,85,2018.12.1 1:24,2018.12.1 1:25,9,1
-181,Case68,Registration,Resource1,81,82,2018.12.1 1:21,2018.12.1 1:22,5,1
-189,Case68,Triage and Assessment,Resource5,84,87,2018.12.1 1:24,2018.12.1 1:27,5,3
-202,Case68,Blood Test,Resource19,88,91,2018.12.1 1:28,2018.12.1 1:31,5,3
-210,Case68,Diagnosis,Resource14,91,92,2018.12.1 1:31,2018.12.1 1:32,5,1
-213,Case68,Admission,Resource20,92,93,2018.12.1 1:32,2018.12.1 1:33,5,1
-217,Case68,Discharge,Resource24,93,95,2018.12.1 1:33,2018.12.1 1:35,5,2
-209,Case69,Registration,Resource1,91,92,2018.12.1 1:31,2018.12.1 1:32,1,1
-214,Case69,Triage and Assessment,Resource3,92,93,2018.12.1 1:32,2018.12.1 1:33,1,1
-218,Case69,Blood Test,Resource17,93,94,2018.12.1 1:33,2018.12.1 1:34,1,1
-221,Case69,Diagnosis,Resource16,94,97,2018.12.1 1:34,2018.12.1 1:37,1,3
-227,Case69,Admission,Resource22,97,100,2018.12.1 1:37,2018.12.1 1:40,1,3
-234,Case69,Discharge,Resource24,101,103,2018.12.1 1:41,2018.12.1 1:43,1,2
-156,Case7,Registration,Resource1,72,73,2018.12.1 1:12,2018.12.1 1:13,6,1
-162,Case7,Triage and Assessment,Resource5,73,76,2018.12.1 1:13,2018.12.1 1:16,6,3
-174,Case7,Intravenous,Resource7,78,80,2018.12.1 1:18,2018.12.1 1:20,6,2
-177,Case7,X-ray,Resource10,80,83,2018.12.1 1:20,2018.12.1 1:23,6,3
-186,Case7,Evaluation,Resource15,83,85,2018.12.1 1:23,2018.12.1 1:25,6,2
-198,Case7,Admission,Resource21,87,89,2018.12.1 1:27,2018.12.1 1:29,6,2
-204,Case7,Discharge,Resource25,89,92,2018.12.1 1:29,2018.12.1 1:32,6,3
-235,Case70,Registration,Resource1,101,102,2018.12.1 1:41,2018.12.1 1:42,4,1
-242,Case70,Triage and Assessment,Resource5,103,106,2018.12.1 1:43,2018.12.1 1:46,4,3
-250,Case70,Blood Test,Resource18,106,108,2018.12.1 1:46,2018.12.1 1:48,4,2
-254,Case70,Diagnosis,Resource15,108,110,2018.12.1 1:48,2018.12.1 1:50,4,2
-263,Case70,Admission,Resource21,112,114,2018.12.1 1:52,2018.12.1 1:54,4,2
-271,Case70,Discharge,Resource25,114,117,2018.12.1 1:54,2018.12.1 1:57,4,3
-267,Case71,Registration,Resource1,113,114,2018.12.1 1:53,2018.12.1 1:54,4,1
-274,Case71,Triage and Assessment,Resource3,115,116,2018.12.1 1:55,2018.12.1 1:56,4,1
-278,Case71,Blood Test,Resource19,116,119,2018.12.1 1:56,2018.12.1 1:59,4,3
-283,Case71,Diagnosis,Resource16,119,122,2018.12.1 1:59,2018.12.1 2:02,4,3
-293,Case71,Admission,Resource20,122,123,2018.12.1 2:02,2018.12.1 2:03,4,1
-303,Case71,Discharge,Resource23,125,126,2018.12.1 2:05,2018.12.1 2:06,4,1
-287,Case72,Registration,Resource1,120,121,2018.12.1 2:00,2018.12.1 2:01,8,1
-290,Case72,Triage and Assessment,Resource4,121,123,2018.12.1 2:01,2018.12.1 2:03,8,2
-298,Case72,Blood Test,Resource17,123,124,2018.12.1 2:03,2018.12.1 2:04,8,1
-309,Case72,Diagnosis,Resource16,127,130,2018.12.1 2:07,2018.12.1 2:10,8,3
-316,Case72,Admission,Resource20,130,131,2018.12.1 2:10,2018.12.1 2:11,8,1
-325,Case72,Discharge,Resource23,133,134,2018.12.1 2:13,2018.12.1 2:14,8,1
-318,Case73,Registration,Resource1,130,131,2018.12.1 2:10,2018.12.1 2:11,3,1
-321,Case73,Triage and Assessment,Resource4,131,133,2018.12.1 2:11,2018.12.1 2:13,3,2
-329,Case73,Blood Test,Resource18,134,136,2018.12.1 2:14,2018.12.1 2:16,3,2
-333,Case73,Diagnosis,Resource14,136,137,2018.12.1 2:16,2018.12.1 2:17,3,1
-335,Case73,Admission,Resource20,137,138,2018.12.1 2:17,2018.12.1 2:18,3,1
-337,Case73,Discharge,Resource23,138,139,2018.12.1 2:18,2018.12.1 2:19,3,1
-343,Case74,Registration,Resource1,140,141,2018.12.1 2:20,2018.12.1 2:21,8,1
-350,Case74,Triage and Assessment,Resource3,143,144,2018.12.1 2:23,2018.12.1 2:24,8,1
-354,Case74,Blood Test,Resource17,144,145,2018.12.1 2:24,2018.12.1 2:25,8,1
-357,Case74,Diagnosis,Resource14,145,146,2018.12.1 2:25,2018.12.1 2:26,8,1
-360,Case74,Admission,Resource21,146,148,2018.12.1 2:26,2018.12.1 2:28,8,2
-364,Case74,Discharge,Resource24,148,150,2018.12.1 2:28,2018.12.1 2:30,8,2
-369,Case75,Registration,Resource1,150,151,2018.12.1 2:30,2018.12.1 2:31,5,1
-375,Case75,Triage and Assessment,Resource3,153,154,2018.12.1 2:33,2018.12.1 2:34,5,1
-381,Case75,Blood Test,Resource17,155,156,2018.12.1 2:35,2018.12.1 2:36,5,1
-385,Case75,Diagnosis,Resource15,156,158,2018.12.1 2:36,2018.12.1 2:38,5,2
-392,Case75,Admission,Resource20,160,161,2018.12.1 2:40,2018.12.1 2:41,5,1
-401,Case75,Discharge,Resource23,162,163,2018.12.1 2:42,2018.12.1 2:43,5,1
-403,Case76,Registration,Resource1,163,164,2018.12.1 2:43,2018.12.1 2:44,4,1
-410,Case76,Triage and Assessment,Resource3,165,166,2018.12.1 2:45,2018.12.1 2:46,4,1
-414,Case76,Blood Test,Resource17,166,167,2018.12.1 2:46,2018.12.1 2:47,4,1
-419,Case76,Diagnosis,Resource15,168,170,2018.12.1 2:48,2018.12.1 2:50,4,2
-424,Case76,Admission,Resource20,170,171,2018.12.1 2:50,2018.12.1 2:51,4,1
-429,Case76,Discharge,Resource23,171,172,2018.12.1 2:51,2018.12.1 2:52,4,1
-426,Case77,Registration,Resource1,170,171,2018.12.1 2:50,2018.12.1 2:51,6,1
-431,Case77,Triage and Assessment,Resource4,172,174,2018.12.1 2:52,2018.12.1 2:54,6,2
-438,Case77,Blood Test,Resource19,174,177,2018.12.1 2:54,2018.12.1 2:57,6,3
-444,Case77,Diagnosis,Resource15,177,179,2018.12.1 2:57,2018.12.1 2:59,6,2
-452,Case77,Admission,Resource22,181,184,2018.12.1 3:01,2018.12.1 3:04,6,3
-465,Case77,Discharge,Resource24,186,188,2018.12.1 3:06,2018.12.1 3:08,6,2
-453,Case78,Registration,Resource1,181,182,2018.12.1 3:01,2018.12.1 3:02,4,1
-460,Case78,Triage and Assessment,Resource3,184,185,2018.12.1 3:04,2018.12.1 3:05,4,1
-466,Case78,Blood Test,Resource17,186,187,2018.12.1 3:06,2018.12.1 3:07,4,1
-472,Case78,Diagnosis,Resource16,189,192,2018.12.1 3:09,2018.12.1 3:12,4,3
-482,Case78,Admission,Resource21,192,194,2018.12.1 3:12,2018.12.1 3:14,4,2
-492,Case78,Discharge,Resource25,196,199,2018.12.1 3:16,2018.12.1 3:19,4,3
-478,Case79,Registration,Resource1,191,192,2018.12.1 3:11,2018.12.1 3:12,3,1
-483,Case79,Triage and Assessment,Resource5,192,195,2018.12.1 3:12,2018.12.1 3:15,3,3
-491,Case79,Blood Test,Resource17,195,196,2018.12.1 3:15,2018.12.1 3:16,3,1
-496,Case79,Diagnosis,Resource14,197,198,2018.12.1 3:17,2018.12.1 3:18,3,1
-499,Case79,Admission,Resource21,198,200,2018.12.1 3:18,2018.12.1 3:20,3,2
-508,Case79,Discharge,Resource24,202,204,2018.12.1 3:22,2018.12.1 3:24,3,2
-178,Case8,Registration,Resource2,80,82,2018.12.1 1:20,2018.12.1 1:22,2,2
-184,Case8,Triage and Assessment,Resource3,82,83,2018.12.1 1:22,2018.12.1 1:23,2,1
-187,Case8,Intravenous,Resource6,83,84,2018.12.1 1:23,2018.12.1 1:24,2,1
-194,Case8,X-ray,Resource8,85,86,2018.12.1 1:25,2018.12.1 1:26,2,1
-197,Case8,Evaluation,Resource14,86,87,2018.12.1 1:26,2018.12.1 1:27,2,1
-203,Case8,Admission,Resource22,89,92,2018.12.1 1:29,2018.12.1 1:32,2,3
-219,Case8,Discharge,Resource25,94,97,2018.12.1 1:34,2018.12.1 1:37,2,3
-512,Case80,Registration,Resource1,203,204,2018.12.1 3:23,2018.12.1 3:24,9,1
-517,Case80,Triage and Assessment,Resource4,204,206,2018.12.1 3:24,2018.12.1 3:26,9,2
-523,Case80,Blood Test,Resource18,206,208,2018.12.1 3:26,2018.12.1 3:28,9,2
-527,Case80,Diagnosis,Resource16,208,211,2018.12.1 3:28,2018.12.1 3:31,9,3
-533,Case80,Admission,Resource21,211,213,2018.12.1 3:31,2018.12.1 3:33,9,2
-536,Case80,Discharge,Resource24,213,215,2018.12.1 3:33,2018.12.1 3:35,9,2
-206,Case9,Registration,Resource2,90,92,2018.12.1 1:30,2018.12.1 1:32,2,2
-216,Case9,Triage and Assessment,Resource5,93,96,2018.12.1 1:33,2018.12.1 1:36,2,3
-225,Case9,Intravenous,Resource7,96,98,2018.12.1 1:36,2018.12.1 1:38,2,2
-230,Case9,X-ray,Resource9,99,101,2018.12.1 1:39,2018.12.1 1:41,2,2
-236,Case9,Evaluation,Resource14,101,102,2018.12.1 1:41,2018.12.1 1:42,2,1
-244,Case9,Admission,Resource21,104,106,2018.12.1 1:44,2018.12.1 1:46,2,2
-249,Case9,Discharge,Resource25,106,109,2018.12.1 1:46,2018.12.1 1:49,2,3
+0,Case1,Registration,Resource1,10,11.0,2018-12-01 00:10:00,2018-12-01 00:11:00,6,1.0
+3,Case1,Triage and Assessment,Resource3,11,12.0,2018-12-01 00:11:00,2018-12-01 00:12:00,6,1.0
+6,Case1,Blood Test,Resource17,13,14.0,2018-12-01 00:13:00,2018-12-01 00:14:00,6,1.0
+10,Case1,Urine Test,Resource18,15,17.0,2018-12-01 00:15:00,2018-12-01 00:17:00,6,2.0
+15,Case1,Diagnosis,Resource15,18,20.0,2018-12-01 00:18:00,2018-12-01 00:20:00,6,2.0
+22,Case1,Admission,Resource21,21,23.0,2018-12-01 00:21:00,2018-12-01 00:23:00,6,2.0
+28,Case1,Discharge,Resource24,23,25.0,2018-12-01 00:23:00,2018-12-01 00:25:00,6,2.0
+239,Case10,Registration,Resource1,102,103.0,2018-12-01 01:42:00,2018-12-01 01:43:00,9,1.0
+243,Case10,Triage and Assessment,Resource5,103,106.0,2018-12-01 01:43:00,2018-12-01 01:46:00,9,3.0
+255,Case10,Blood Test,Resource19,108,111.0,2018-12-01 01:48:00,2018-12-01 01:51:00,9,3.0
+268,Case10,Urine Test,Resource18,113,115.0,2018-12-01 01:53:00,2018-12-01 01:55:00,9,2.0
+280,Case10,Diagnosis,Resource15,117,119.0,2018-12-01 01:57:00,2018-12-01 01:59:00,9,2.0
+286,Case10,Admission,Resource22,119,122.0,2018-12-01 01:59:00,2018-12-01 02:02:00,9,3.0
+299,Case10,Discharge,Resource25,124,127.0,2018-12-01 02:04:00,2018-12-01 02:07:00,9,3.0
+260,Case11,Registration,Resource2,110,112.0,2018-12-01 01:50:00,2018-12-01 01:52:00,4,2.0
+267,Case11,Triage and Assessment,Resource3,112,113.0,2018-12-01 01:52:00,2018-12-01 01:53:00,4,1.0
+270,Case11,Blood Test,Resource17,113,114.0,2018-12-01 01:53:00,2018-12-01 01:54:00,4,1.0
+273,Case11,Urine Test,Resource19,114,117.0,2018-12-01 01:54:00,2018-12-01 01:57:00,4,3.0
+281,Case11,Diagnosis,Resource14,117,118.0,2018-12-01 01:57:00,2018-12-01 01:58:00,4,1.0
+287,Case11,Admission,Resource20,120,121.0,2018-12-01 02:00:00,2018-12-01 02:01:00,4,1.0
+291,Case11,Discharge,Resource23,121,122.0,2018-12-01 02:01:00,2018-12-01 02:02:00,4,1.0
+290,Case12,Registration,Resource1,121,122.0,2018-12-01 02:01:00,2018-12-01 02:02:00,7,1.0
+295,Case12,Triage and Assessment,Resource3,122,123.0,2018-12-01 02:02:00,2018-12-01 02:03:00,7,1.0
+298,Case12,Blood Test,Resource18,123,125.0,2018-12-01 02:03:00,2018-12-01 02:05:00,7,2.0
+303,Case12,Urine Test,Resource17,125,126.0,2018-12-01 02:05:00,2018-12-01 02:06:00,7,1.0
+306,Case12,Diagnosis,Resource15,126,128.0,2018-12-01 02:06:00,2018-12-01 02:08:00,7,2.0
+310,Case12,Admission,Resource22,128,131.0,2018-12-01 02:08:00,2018-12-01 02:11:00,7,3.0
+322,Case12,Discharge,Resource24,133,135.0,2018-12-01 02:13:00,2018-12-01 02:15:00,7,2.0
+313,Case13,Registration,Resource2,130,132.0,2018-12-01 02:10:00,2018-12-01 02:12:00,3,2.0
+323,Case13,Triage and Assessment,Resource5,133,136.0,2018-12-01 02:13:00,2018-12-01 02:16:00,3,3.0
+333,Case13,Blood Test,Resource17,136,137.0,2018-12-01 02:16:00,2018-12-01 02:17:00,3,1.0
+339,Case13,Urine Test,Resource19,139,142.0,2018-12-01 02:19:00,2018-12-01 02:22:00,3,3.0
+348,Case13,Diagnosis,Resource14,142,143.0,2018-12-01 02:22:00,2018-12-01 02:23:00,3,1.0
+356,Case13,Admission,Resource21,145,147.0,2018-12-01 02:25:00,2018-12-01 02:27:00,3,2.0
+363,Case13,Discharge,Resource23,148,149.0,2018-12-01 02:28:00,2018-12-01 02:29:00,3,1.0
+347,Case14,Registration,Resource1,142,143.0,2018-12-01 02:22:00,2018-12-01 02:23:00,6,1.0
+354,Case14,Triage and Assessment,Resource3,144,145.0,2018-12-01 02:24:00,2018-12-01 02:25:00,6,1.0
+361,Case14,Blood Test,Resource18,147,149.0,2018-12-01 02:27:00,2018-12-01 02:29:00,6,2.0
+366,Case14,Urine Test,Resource19,149,152.0,2018-12-01 02:29:00,2018-12-01 02:32:00,6,3.0
+374,Case14,Diagnosis,Resource15,152,154.0,2018-12-01 02:32:00,2018-12-01 02:34:00,6,2.0
+386,Case14,Admission,Resource20,156,157.0,2018-12-01 02:36:00,2018-12-01 02:37:00,6,1.0
+389,Case14,Discharge,Resource25,157,160.0,2018-12-01 02:37:00,2018-12-01 02:40:00,6,3.0
+370,Case15,Registration,Resource1,151,152.0,2018-12-01 02:31:00,2018-12-01 02:32:00,6,1.0
+375,Case15,Triage and Assessment,Resource3,152,153.0,2018-12-01 02:32:00,2018-12-01 02:33:00,6,1.0
+378,Case15,Blood Test,Resource17,153,154.0,2018-12-01 02:33:00,2018-12-01 02:34:00,6,1.0
+385,Case15,Urine Test,Resource18,155,157.0,2018-12-01 02:35:00,2018-12-01 02:37:00,6,2.0
+390,Case15,Diagnosis,Resource14,157,158.0,2018-12-01 02:37:00,2018-12-01 02:38:00,6,1.0
+392,Case15,Admission,Resource22,158,161.0,2018-12-01 02:38:00,2018-12-01 02:41:00,6,3.0
+399,Case15,Discharge,Resource23,161,162.0,2018-12-01 02:41:00,2018-12-01 02:42:00,6,1.0
+395,Case16,Registration,Resource2,160,162.0,2018-12-01 02:40:00,2018-12-01 02:42:00,10,2.0
+407,Case16,Triage and Assessment,Resource5,164,167.0,2018-12-01 02:44:00,2018-12-01 02:47:00,10,3.0
+416,Case16,Blood Test,Resource18,167,169.0,2018-12-01 02:47:00,2018-12-01 02:49:00,10,2.0
+425,Case16,Urine Test,Resource19,171,174.0,2018-12-01 02:51:00,2018-12-01 02:54:00,10,3.0
+434,Case16,Diagnosis,Resource16,174,177.0,2018-12-01 02:54:00,2018-12-01 02:57:00,10,3.0
+442,Case16,Admission,Resource22,177,180.0,2018-12-01 02:57:00,2018-12-01 03:00:00,10,3.0
+449,Case16,Discharge,Resource25,180,183.0,2018-12-01 03:00:00,2018-12-01 03:03:00,10,3.0
+423,Case17,Registration,Resource2,170,172.0,2018-12-01 02:50:00,2018-12-01 02:52:00,4,2.0
+430,Case17,Triage and Assessment,Resource3,172,173.0,2018-12-01 02:52:00,2018-12-01 02:53:00,4,1.0
+436,Case17,Blood Test,Resource17,175,176.0,2018-12-01 02:55:00,2018-12-01 02:56:00,4,1.0
+444,Case17,Urine Test,Resource19,178,181.0,2018-12-01 02:58:00,2018-12-01 03:01:00,4,3.0
+454,Case17,Diagnosis,Resource16,181,184.0,2018-12-01 03:01:00,2018-12-01 03:04:00,4,3.0
+463,Case17,Admission,Resource22,184,187.0,2018-12-01 03:04:00,2018-12-01 03:07:00,4,3.0
+472,Case17,Discharge,Resource25,188,191.0,2018-12-01 03:08:00,2018-12-01 03:11:00,4,3.0
+450,Case18,Registration,Resource2,180,182.0,2018-12-01 03:00:00,2018-12-01 03:02:00,3,2.0
+458,Case18,Triage and Assessment,Resource3,182,183.0,2018-12-01 03:02:00,2018-12-01 03:03:00,3,1.0
+465,Case18,Blood Test,Resource18,185,187.0,2018-12-01 03:05:00,2018-12-01 03:07:00,3,2.0
+470,Case18,Urine Test,Resource19,187,190.0,2018-12-01 03:07:00,2018-12-01 03:10:00,3,3.0
+476,Case18,Diagnosis,Resource16,190,193.0,2018-12-01 03:10:00,2018-12-01 03:13:00,3,3.0
+486,Case18,Admission,Resource22,193,196.0,2018-12-01 03:13:00,2018-12-01 03:16:00,3,3.0
+494,Case18,Discharge,Resource24,196,198.0,2018-12-01 03:16:00,2018-12-01 03:18:00,3,2.0
+481,Case19,Registration,Resource1,192,193.0,2018-12-01 03:12:00,2018-12-01 03:13:00,10,1.0
+488,Case19,Triage and Assessment,Resource3,194,195.0,2018-12-01 03:14:00,2018-12-01 03:15:00,10,1.0
+495,Case19,Blood Test,Resource17,197,198.0,2018-12-01 03:17:00,2018-12-01 03:18:00,10,1.0
+499,Case19,Urine Test,Resource19,199,202.0,2018-12-01 03:19:00,2018-12-01 03:22:00,10,3.0
+515,Case19,Diagnosis,Resource15,204,206.0,2018-12-01 03:24:00,2018-12-01 03:26:00,10,2.0
+527,Case19,Admission,Resource20,208,209.0,2018-12-01 03:28:00,2018-12-01 03:29:00,10,1.0
+530,Case19,Discharge,Resource24,209,211.0,2018-12-01 03:29:00,2018-12-01 03:31:00,10,2.0
+25,Case2,Registration,Resource1,22,23.0,2018-12-01 00:22:00,2018-12-01 00:23:00,6,1.0
+32,Case2,Triage and Assessment,Resource3,25,26.0,2018-12-01 00:25:00,2018-12-01 00:26:00,6,1.0
+38,Case2,Blood Test,Resource17,28,29.0,2018-12-01 00:28:00,2018-12-01 00:29:00,6,1.0
+42,Case2,Urine Test,Resource19,30,33.0,2018-12-01 00:30:00,2018-12-01 00:33:00,6,3.0
+51,Case2,Diagnosis,Resource14,33,34.0,2018-12-01 00:33:00,2018-12-01 00:34:00,6,1.0
+60,Case2,Admission,Resource22,36,39.0,2018-12-01 00:36:00,2018-12-01 00:39:00,6,3.0
+68,Case2,Discharge,Resource25,40,43.0,2018-12-01 00:40:00,2018-12-01 00:43:00,6,3.0
+507,Case20,Registration,Resource1,202,203.0,2018-12-01 03:22:00,2018-12-01 03:23:00,1,1.0
+516,Case20,Triage and Assessment,Resource3,204,205.0,2018-12-01 03:24:00,2018-12-01 03:25:00,1,1.0
+521,Case20,Blood Test,Resource18,205,207.0,2018-12-01 03:25:00,2018-12-01 03:27:00,1,2.0
+526,Case20,Urine Test,Resource19,207,210.0,2018-12-01 03:27:00,2018-12-01 03:30:00,1,3.0
+532,Case20,Diagnosis,Resource14,211,212.0,2018-12-01 03:31:00,2018-12-01 03:32:00,1,1.0
+535,Case20,Admission,Resource22,213,216.0,2018-12-01 03:33:00,2018-12-01 03:36:00,1,3.0
+538,Case20,Discharge,Resource24,216,218.0,2018-12-01 03:36:00,2018-12-01 03:38:00,1,2.0
+2,Case21,Registration,Resource1,11,12.0,2018-12-01 00:11:00,2018-12-01 00:12:00,10,1.0
+5,Case21,Triage and Assessment,Resource4,12,14.0,2018-12-01 00:12:00,2018-12-01 00:14:00,10,2.0
+9,Case21,Intravenous,Resource6,14,15.0,2018-12-01 00:14:00,2018-12-01 00:15:00,10,1.0
+12,Case21,X-ray,Resource8,16,17.0,2018-12-01 00:16:00,2018-12-01 00:17:00,10,1.0
+14,Case21,Evaluation,Resource14,17,18.0,2018-12-01 00:17:00,2018-12-01 00:18:00,10,1.0
+17,Case21,Admission,Resource20,19,20.0,2018-12-01 00:19:00,2018-12-01 00:20:00,10,1.0
+19,Case21,Discharge,Resource23,20,21.0,2018-12-01 00:20:00,2018-12-01 00:21:00,10,1.0
+20,Case22,Registration,Resource2,20,22.0,2018-12-01 00:20:00,2018-12-01 00:22:00,6,2.0
+26,Case22,Triage and Assessment,Resource3,22,23.0,2018-12-01 00:22:00,2018-12-01 00:23:00,6,1.0
+29,Case22,Intravenous,Resource6,23,24.0,2018-12-01 00:23:00,2018-12-01 00:24:00,6,1.0
+33,Case22,X-ray,Resource10,26,29.0,2018-12-01 00:26:00,2018-12-01 00:29:00,6,3.0
+41,Case22,Evaluation,Resource15,29,31.0,2018-12-01 00:29:00,2018-12-01 00:31:00,6,2.0
+46,Case22,Admission,Resource21,31,33.0,2018-12-01 00:31:00,2018-12-01 00:33:00,6,2.0
+58,Case22,Discharge,Resource24,35,37.0,2018-12-01 00:35:00,2018-12-01 00:37:00,6,2.0
+43,Case23,Registration,Resource2,30,32.0,2018-12-01 00:30:00,2018-12-01 00:32:00,3,2.0
+54,Case23,Triage and Assessment,Resource5,34,37.0,2018-12-01 00:34:00,2018-12-01 00:37:00,3,3.0
+64,Case23,Intravenous,Resource7,37,39.0,2018-12-01 00:37:00,2018-12-01 00:39:00,3,2.0
+67,Case23,X-ray,Resource8,39,40.0,2018-12-01 00:39:00,2018-12-01 00:40:00,3,1.0
+76,Case23,Evaluation,Resource16,42,45.0,2018-12-01 00:42:00,2018-12-01 00:45:00,3,3.0
+87,Case23,Admission,Resource21,45,47.0,2018-12-01 00:45:00,2018-12-01 00:47:00,3,2.0
+96,Case23,Discharge,Resource23,49,50.0,2018-12-01 00:49:00,2018-12-01 00:50:00,3,1.0
+71,Case24,Registration,Resource2,40,42.0,2018-12-01 00:40:00,2018-12-01 00:42:00,10,2.0
+79,Case24,Triage and Assessment,Resource3,42,43.0,2018-12-01 00:42:00,2018-12-01 00:43:00,10,1.0
+82,Case24,Intravenous,Resource6,43,44.0,2018-12-01 00:43:00,2018-12-01 00:44:00,10,1.0
+84,Case24,X-ray,Resource9,44,46.0,2018-12-01 00:44:00,2018-12-01 00:46:00,10,2.0
+90,Case24,Evaluation,Resource15,46,48.0,2018-12-01 00:46:00,2018-12-01 00:48:00,10,2.0
+98,Case24,Admission,Resource22,50,53.0,2018-12-01 00:50:00,2018-12-01 00:53:00,10,3.0
+112,Case24,Discharge,Resource23,55,56.0,2018-12-01 00:55:00,2018-12-01 00:56:00,10,1.0
+103,Case25,Registration,Resource1,52,53.0,2018-12-01 00:52:00,2018-12-01 00:53:00,6,1.0
+108,Case25,Triage and Assessment,Resource3,53,54.0,2018-12-01 00:53:00,2018-12-01 00:54:00,6,1.0
+111,Case25,Intravenous,Resource6,54,55.0,2018-12-01 00:54:00,2018-12-01 00:55:00,6,1.0
+114,Case25,X-ray,Resource10,55,58.0,2018-12-01 00:55:00,2018-12-01 00:58:00,6,3.0
+124,Case25,Evaluation,Resource16,60,63.0,2018-12-01 01:00:00,2018-12-01 01:03:00,6,3.0
+134,Case25,Admission,Resource21,63,65.0,2018-12-01 01:03:00,2018-12-01 01:05:00,6,2.0
+143,Case25,Discharge,Resource25,67,70.0,2018-12-01 01:07:00,2018-12-01 01:10:00,6,3.0
+126,Case26,Registration,Resource2,60,62.0,2018-12-01 01:00:00,2018-12-01 01:02:00,4,2.0
+135,Case26,Triage and Assessment,Resource5,64,67.0,2018-12-01 01:04:00,2018-12-01 01:07:00,4,3.0
+147,Case26,Intravenous,Resource7,69,71.0,2018-12-01 01:09:00,2018-12-01 01:11:00,4,2.0
+154,Case26,X-ray,Resource9,71,73.0,2018-12-01 01:11:00,2018-12-01 01:13:00,4,2.0
+160,Case26,Evaluation,Resource15,73,75.0,2018-12-01 01:13:00,2018-12-01 01:15:00,4,2.0
+172,Case26,Admission,Resource21,77,79.0,2018-12-01 01:17:00,2018-12-01 01:19:00,4,2.0
+182,Case26,Discharge,Resource23,81,82.0,2018-12-01 01:21:00,2018-12-01 01:22:00,4,1.0
+153,Case27,Registration,Resource1,71,72.0,2018-12-01 01:11:00,2018-12-01 01:12:00,3,1.0
+159,Case27,Triage and Assessment,Resource5,73,76.0,2018-12-01 01:13:00,2018-12-01 01:16:00,3,3.0
+171,Case27,Intravenous,Resource7,76,78.0,2018-12-01 01:16:00,2018-12-01 01:18:00,3,2.0
+175,Case27,X-ray,Resource10,78,81.0,2018-12-01 01:18:00,2018-12-01 01:21:00,3,3.0
+189,Case27,Evaluation,Resource14,83,84.0,2018-12-01 01:23:00,2018-12-01 01:24:00,3,1.0
+193,Case27,Admission,Resource20,84,85.0,2018-12-01 01:24:00,2018-12-01 01:25:00,3,1.0
+195,Case27,Discharge,Resource24,85,87.0,2018-12-01 01:25:00,2018-12-01 01:27:00,3,2.0
+180,Case28,Registration,Resource2,80,82.0,2018-12-01 01:20:00,2018-12-01 01:22:00,5,2.0
+190,Case28,Triage and Assessment,Resource5,83,86.0,2018-12-01 01:23:00,2018-12-01 01:26:00,5,3.0
+197,Case28,Intravenous,Resource7,86,88.0,2018-12-01 01:26:00,2018-12-01 01:28:00,5,2.0
+203,Case28,X-ray,Resource8,90,91.0,2018-12-01 01:30:00,2018-12-01 01:31:00,5,1.0
+208,Case28,Evaluation,Resource15,91,93.0,2018-12-01 01:31:00,2018-12-01 01:33:00,5,2.0
+220,Case28,Admission,Resource21,95,97.0,2018-12-01 01:35:00,2018-12-01 01:37:00,5,2.0
+226,Case28,Discharge,Resource23,97,98.0,2018-12-01 01:37:00,2018-12-01 01:38:00,5,1.0
+210,Case29,Registration,Resource1,92,93.0,2018-12-01 01:32:00,2018-12-01 01:33:00,7,1.0
+218,Case29,Triage and Assessment,Resource3,94,95.0,2018-12-01 01:34:00,2018-12-01 01:35:00,7,1.0
+225,Case29,Intravenous,Resource7,97,99.0,2018-12-01 01:37:00,2018-12-01 01:39:00,7,2.0
+231,Case29,X-ray,Resource9,99,101.0,2018-12-01 01:39:00,2018-12-01 01:41:00,7,2.0
+242,Case29,Evaluation,Resource16,103,106.0,2018-12-01 01:43:00,2018-12-01 01:46:00,7,3.0
+253,Case29,Admission,Resource20,107,108.0,2018-12-01 01:47:00,2018-12-01 01:48:00,7,1.0
+256,Case29,Discharge,Resource23,108,109.0,2018-12-01 01:48:00,2018-12-01 01:49:00,7,1.0
+45,Case3,Registration,Resource1,31,32.0,2018-12-01 00:31:00,2018-12-01 00:32:00,5,1.0
+49,Case3,Triage and Assessment,Resource3,32,33.0,2018-12-01 00:32:00,2018-12-01 00:33:00,5,1.0
+52,Case3,Blood Test,Resource17,33,34.0,2018-12-01 00:33:00,2018-12-01 00:34:00,5,1.0
+59,Case3,Urine Test,Resource18,35,37.0,2018-12-01 00:35:00,2018-12-01 00:37:00,5,2.0
+66,Case3,Diagnosis,Resource14,39,40.0,2018-12-01 00:39:00,2018-12-01 00:40:00,5,1.0
+69,Case3,Admission,Resource20,40,41.0,2018-12-01 00:40:00,2018-12-01 00:41:00,5,1.0
+75,Case3,Discharge,Resource23,41,42.0,2018-12-01 00:41:00,2018-12-01 00:42:00,5,1.0
+234,Case30,Registration,Resource2,100,102.0,2018-12-01 01:40:00,2018-12-01 01:42:00,9,2.0
+245,Case30,Triage and Assessment,Resource3,104,105.0,2018-12-01 01:44:00,2018-12-01 01:45:00,9,1.0
+249,Case30,Intravenous,Resource7,105,107.0,2018-12-01 01:45:00,2018-12-01 01:47:00,9,2.0
+257,Case30,X-ray,Resource8,109,110.0,2018-12-01 01:49:00,2018-12-01 01:50:00,9,1.0
+262,Case30,Evaluation,Resource16,111,114.0,2018-12-01 01:51:00,2018-12-01 01:54:00,9,3.0
+277,Case30,Admission,Resource21,116,118.0,2018-12-01 01:56:00,2018-12-01 01:58:00,9,2.0
+283,Case30,Discharge,Resource24,118,120.0,2018-12-01 01:58:00,2018-12-01 02:00:00,9,2.0
+265,Case31,Registration,Resource1,112,113.0,2018-12-01 01:52:00,2018-12-01 01:53:00,10,1.0
+272,Case31,Triage and Assessment,Resource3,114,115.0,2018-12-01 01:54:00,2018-12-01 01:55:00,10,1.0
+278,Case31,Intravenous,Resource6,116,117.0,2018-12-01 01:56:00,2018-12-01 01:57:00,10,1.0
+285,Case31,X-ray,Resource9,119,121.0,2018-12-01 01:59:00,2018-12-01 02:01:00,10,2.0
+296,Case31,Evaluation,Resource14,123,124.0,2018-12-01 02:03:00,2018-12-01 02:04:00,10,1.0
+305,Case31,Admission,Resource20,126,127.0,2018-12-01 02:06:00,2018-12-01 02:07:00,10,1.0
+308,Case31,Discharge,Resource23,127,128.0,2018-12-01 02:07:00,2018-12-01 02:08:00,10,1.0
+288,Case32,Registration,Resource2,120,122.0,2018-12-01 02:00:00,2018-12-01 02:02:00,5,2.0
+297,Case32,Triage and Assessment,Resource5,123,126.0,2018-12-01 02:03:00,2018-12-01 02:06:00,5,3.0
+309,Case32,Intravenous,Resource7,128,130.0,2018-12-01 02:08:00,2018-12-01 02:10:00,5,2.0
+312,Case32,X-ray,Resource8,130,131.0,2018-12-01 02:10:00,2018-12-01 02:11:00,5,1.0
+317,Case32,Evaluation,Resource15,131,133.0,2018-12-01 02:11:00,2018-12-01 02:13:00,5,2.0
+328,Case32,Admission,Resource22,135,138.0,2018-12-01 02:15:00,2018-12-01 02:18:00,5,3.0
+338,Case32,Discharge,Resource24,138,140.0,2018-12-01 02:18:00,2018-12-01 02:20:00,5,2.0
+318,Case33,Registration,Resource1,132,133.0,2018-12-01 02:12:00,2018-12-01 02:13:00,3,1.0
+324,Case33,Triage and Assessment,Resource3,133,134.0,2018-12-01 02:13:00,2018-12-01 02:14:00,3,1.0
+327,Case33,Intravenous,Resource7,134,136.0,2018-12-01 02:14:00,2018-12-01 02:16:00,3,2.0
+335,Case33,X-ray,Resource10,137,140.0,2018-12-01 02:17:00,2018-12-01 02:20:00,3,3.0
+344,Case33,Evaluation,Resource15,141,143.0,2018-12-01 02:21:00,2018-12-01 02:23:00,3,2.0
+352,Case33,Admission,Resource22,143,146.0,2018-12-01 02:23:00,2018-12-01 02:26:00,3,3.0
+360,Case33,Discharge,Resource24,146,148.0,2018-12-01 02:26:00,2018-12-01 02:28:00,3,2.0
+342,Case34,Registration,Resource2,140,142.0,2018-12-01 02:20:00,2018-12-01 02:22:00,4,2.0
+353,Case34,Triage and Assessment,Resource5,144,147.0,2018-12-01 02:24:00,2018-12-01 02:27:00,4,3.0
+365,Case34,Intravenous,Resource7,149,151.0,2018-12-01 02:29:00,2018-12-01 02:31:00,4,2.0
+371,Case34,X-ray,Resource8,151,152.0,2018-12-01 02:31:00,2018-12-01 02:32:00,4,1.0
+380,Case34,Evaluation,Resource16,154,157.0,2018-12-01 02:34:00,2018-12-01 02:37:00,4,3.0
+393,Case34,Admission,Resource21,159,161.0,2018-12-01 02:39:00,2018-12-01 02:41:00,4,2.0
+403,Case34,Discharge,Resource24,163,165.0,2018-12-01 02:43:00,2018-12-01 02:45:00,4,2.0
+368,Case35,Registration,Resource2,150,152.0,2018-12-01 02:30:00,2018-12-01 02:32:00,9,2.0
+377,Case35,Triage and Assessment,Resource5,153,156.0,2018-12-01 02:33:00,2018-12-01 02:36:00,9,3.0
+391,Case35,Intravenous,Resource7,158,160.0,2018-12-01 02:38:00,2018-12-01 02:40:00,9,2.0
+394,Case35,X-ray,Resource10,160,163.0,2018-12-01 02:40:00,2018-12-01 02:43:00,9,3.0
+404,Case35,Evaluation,Resource16,163,166.0,2018-12-01 02:43:00,2018-12-01 02:46:00,9,3.0
+414,Case35,Admission,Resource22,166,169.0,2018-12-01 02:46:00,2018-12-01 02:49:00,9,3.0
+422,Case35,Discharge,Resource23,170,171.0,2018-12-01 02:50:00,2018-12-01 02:51:00,9,1.0
+400,Case36,Registration,Resource1,162,163.0,2018-12-01 02:42:00,2018-12-01 02:43:00,6,1.0
+408,Case36,Triage and Assessment,Resource3,164,165.0,2018-12-01 02:44:00,2018-12-01 02:45:00,6,1.0
+415,Case36,Intravenous,Resource7,167,169.0,2018-12-01 02:47:00,2018-12-01 02:49:00,6,2.0
+421,Case36,X-ray,Resource9,169,171.0,2018-12-01 02:49:00,2018-12-01 02:51:00,6,2.0
+427,Case36,Evaluation,Resource14,171,172.0,2018-12-01 02:51:00,2018-12-01 02:52:00,6,1.0
+433,Case36,Admission,Resource21,174,176.0,2018-12-01 02:54:00,2018-12-01 02:56:00,6,2.0
+439,Case36,Discharge,Resource24,176,178.0,2018-12-01 02:56:00,2018-12-01 02:58:00,6,2.0
+426,Case37,Registration,Resource1,171,172.0,2018-12-01 02:51:00,2018-12-01 02:52:00,3,1.0
+432,Case37,Triage and Assessment,Resource5,173,176.0,2018-12-01 02:53:00,2018-12-01 02:56:00,3,3.0
+440,Case37,Intravenous,Resource6,176,177.0,2018-12-01 02:56:00,2018-12-01 02:57:00,3,1.0
+443,Case37,X-ray,Resource8,177,178.0,2018-12-01 02:57:00,2018-12-01 02:58:00,3,1.0
+445,Case37,Evaluation,Resource14,178,179.0,2018-12-01 02:58:00,2018-12-01 02:59:00,3,1.0
+447,Case37,Admission,Resource21,179,181.0,2018-12-01 02:59:00,2018-12-01 03:01:00,3,2.0
+457,Case37,Discharge,Resource24,182,184.0,2018-12-01 03:02:00,2018-12-01 03:04:00,3,2.0
+453,Case38,Registration,Resource1,181,182.0,2018-12-01 03:01:00,2018-12-01 03:02:00,8,1.0
+460,Case38,Triage and Assessment,Resource5,183,186.0,2018-12-01 03:03:00,2018-12-01 03:06:00,8,3.0
+468,Case38,Intravenous,Resource6,186,187.0,2018-12-01 03:06:00,2018-12-01 03:07:00,8,1.0
+473,Case38,X-ray,Resource10,189,192.0,2018-12-01 03:09:00,2018-12-01 03:12:00,8,3.0
+487,Case38,Evaluation,Resource14,194,195.0,2018-12-01 03:14:00,2018-12-01 03:15:00,8,1.0
+491,Case38,Admission,Resource21,195,197.0,2018-12-01 03:15:00,2018-12-01 03:17:00,8,2.0
+496,Case38,Discharge,Resource25,197,200.0,2018-12-01 03:17:00,2018-12-01 03:20:00,8,3.0
+477,Case39,Registration,Resource2,190,192.0,2018-12-01 03:10:00,2018-12-01 03:12:00,2,2.0
+483,Case39,Triage and Assessment,Resource4,192,194.0,2018-12-01 03:12:00,2018-12-01 03:14:00,2,2.0
+493,Case39,Intravenous,Resource7,196,198.0,2018-12-01 03:16:00,2018-12-01 03:18:00,2,2.0
+498,Case39,X-ray,Resource8,198,199.0,2018-12-01 03:18:00,2018-12-01 03:19:00,2,1.0
+500,Case39,Evaluation,Resource15,200,202.0,2018-12-01 03:20:00,2018-12-01 03:22:00,2,2.0
+509,Case39,Admission,Resource22,202,205.0,2018-12-01 03:22:00,2018-12-01 03:25:00,2,3.0
+525,Case39,Discharge,Resource23,207,208.0,2018-12-01 03:27:00,2018-12-01 03:28:00,2,1.0
+74,Case4,Registration,Resource1,41,42.0,2018-12-01 00:41:00,2018-12-01 00:42:00,8,1.0
+81,Case4,Triage and Assessment,Resource5,43,46.0,2018-12-01 00:43:00,2018-12-01 00:46:00,8,3.0
+94,Case4,Blood Test,Resource17,48,49.0,2018-12-01 00:48:00,2018-12-01 00:49:00,8,1.0
+97,Case4,Urine Test,Resource19,49,52.0,2018-12-01 00:49:00,2018-12-01 00:52:00,8,3.0
+104,Case4,Diagnosis,Resource14,52,53.0,2018-12-01 00:52:00,2018-12-01 00:53:00,8,1.0
+107,Case4,Admission,Resource20,53,54.0,2018-12-01 00:53:00,2018-12-01 00:54:00,8,1.0
+110,Case4,Discharge,Resource24,54,56.0,2018-12-01 00:54:00,2018-12-01 00:56:00,8,2.0
+502,Case40,Registration,Resource2,200,202.0,2018-12-01 03:20:00,2018-12-01 03:22:00,7,2.0
+512,Case40,Triage and Assessment,Resource5,203,206.0,2018-12-01 03:23:00,2018-12-01 03:26:00,7,3.0
+524,Case40,Intravenous,Resource7,206,208.0,2018-12-01 03:26:00,2018-12-01 03:28:00,7,2.0
+528,Case40,X-ray,Resource10,208,211.0,2018-12-01 03:28:00,2018-12-01 03:31:00,7,3.0
+533,Case40,Evaluation,Resource15,212,214.0,2018-12-01 03:32:00,2018-12-01 03:34:00,7,2.0
+536,Case40,Admission,Resource20,214,215.0,2018-12-01 03:34:00,2018-12-01 03:35:00,7,1.0
+537,Case40,Discharge,Resource25,215,218.0,2018-12-01 03:35:00,2018-12-01 03:38:00,7,3.0
+1,Case41,Registration,Resource2,10,12.0,2018-12-01 00:10:00,2018-12-01 00:12:00,7,2.0
+8,Case41,Triage and Assessment,Resource3,14,15.0,2018-12-01 00:14:00,2018-12-01 00:15:00,7,1.0
+11,Case41,Blood Test,Resource19,15,18.0,2018-12-01 00:15:00,2018-12-01 00:18:00,7,3.0
+16,Case41,Diagnosis,Resource16,18,21.0,2018-12-01 00:18:00,2018-12-01 00:21:00,7,3.0
+27,Case41,Admission,Resource22,23,26.0,2018-12-01 00:23:00,2018-12-01 00:26:00,7,3.0
+36,Case41,Discharge,Resource25,27,30.0,2018-12-01 00:27:00,2018-12-01 00:30:00,7,3.0
+23,Case42,Registration,Resource1,21,22.0,2018-12-01 00:21:00,2018-12-01 00:22:00,7,1.0
+30,Case42,Triage and Assessment,Resource5,24,27.0,2018-12-01 00:24:00,2018-12-01 00:27:00,7,3.0
+40,Case42,Blood Test,Resource18,29,31.0,2018-12-01 00:29:00,2018-12-01 00:31:00,7,2.0
+50,Case42,Diagnosis,Resource16,33,36.0,2018-12-01 00:33:00,2018-12-01 00:36:00,7,3.0
+61,Case42,Admission,Resource20,36,37.0,2018-12-01 00:36:00,2018-12-01 00:37:00,7,1.0
+63,Case42,Discharge,Resource23,37,38.0,2018-12-01 00:37:00,2018-12-01 00:38:00,7,1.0
+48,Case43,Registration,Resource1,32,33.0,2018-12-01 00:32:00,2018-12-01 00:33:00,3,1.0
+55,Case43,Triage and Assessment,Resource3,34,35.0,2018-12-01 00:34:00,2018-12-01 00:35:00,3,1.0
+62,Case43,Blood Test,Resource19,37,40.0,2018-12-01 00:37:00,2018-12-01 00:40:00,3,3.0
+70,Case43,Diagnosis,Resource15,40,42.0,2018-12-01 00:40:00,2018-12-01 00:42:00,3,2.0
+78,Case43,Admission,Resource22,42,45.0,2018-12-01 00:42:00,2018-12-01 00:45:00,3,3.0
+91,Case43,Discharge,Resource24,47,49.0,2018-12-01 00:47:00,2018-12-01 00:49:00,3,2.0
+80,Case44,Registration,Resource1,43,44.0,2018-12-01 00:43:00,2018-12-01 00:44:00,2,1.0
+88,Case44,Triage and Assessment,Resource3,46,47.0,2018-12-01 00:46:00,2018-12-01 00:47:00,2,1.0
+95,Case44,Blood Test,Resource18,48,50.0,2018-12-01 00:48:00,2018-12-01 00:50:00,2,2.0
+101,Case44,Diagnosis,Resource16,51,54.0,2018-12-01 00:51:00,2018-12-01 00:54:00,2,3.0
+115,Case44,Admission,Resource21,56,58.0,2018-12-01 00:56:00,2018-12-01 00:58:00,2,2.0
+120,Case44,Discharge,Resource25,58,61.0,2018-12-01 00:58:00,2018-12-01 01:01:00,2,3.0
+100,Case45,Registration,Resource1,50,51.0,2018-12-01 00:50:00,2018-12-01 00:51:00,10,1.0
+106,Case45,Triage and Assessment,Resource5,53,56.0,2018-12-01 00:53:00,2018-12-01 00:56:00,10,3.0
+116,Case45,Blood Test,Resource17,56,57.0,2018-12-01 00:56:00,2018-12-01 00:57:00,10,1.0
+118,Case45,Diagnosis,Resource15,57,59.0,2018-12-01 00:57:00,2018-12-01 00:59:00,10,2.0
+123,Case45,Admission,Resource20,59,60.0,2018-12-01 00:59:00,2018-12-01 01:00:00,10,1.0
+125,Case45,Discharge,Resource23,60,61.0,2018-12-01 01:00:00,2018-12-01 01:01:00,10,1.0
+129,Case46,Registration,Resource1,61,62.0,2018-12-01 01:01:00,2018-12-01 01:02:00,10,1.0
+132,Case46,Triage and Assessment,Resource4,62,64.0,2018-12-01 01:02:00,2018-12-01 01:04:00,10,2.0
+141,Case46,Blood Test,Resource17,66,67.0,2018-12-01 01:06:00,2018-12-01 01:07:00,10,1.0
+145,Case46,Diagnosis,Resource16,67,70.0,2018-12-01 01:07:00,2018-12-01 01:10:00,10,3.0
+149,Case46,Admission,Resource21,70,72.0,2018-12-01 01:10:00,2018-12-01 01:12:00,10,2.0
+162,Case46,Discharge,Resource24,74,76.0,2018-12-01 01:14:00,2018-12-01 01:16:00,10,2.0
+151,Case47,Registration,Resource1,70,71.0,2018-12-01 01:10:00,2018-12-01 01:11:00,7,1.0
+156,Case47,Triage and Assessment,Resource4,72,74.0,2018-12-01 01:12:00,2018-12-01 01:14:00,7,2.0
+167,Case47,Blood Test,Resource17,75,76.0,2018-12-01 01:15:00,2018-12-01 01:16:00,7,1.0
+173,Case47,Diagnosis,Resource14,77,78.0,2018-12-01 01:17:00,2018-12-01 01:18:00,7,1.0
+178,Case47,Admission,Resource20,80,81.0,2018-12-01 01:20:00,2018-12-01 01:21:00,7,1.0
+184,Case47,Discharge,Resource24,81,83.0,2018-12-01 01:21:00,2018-12-01 01:23:00,7,2.0
+183,Case48,Registration,Resource1,81,82.0,2018-12-01 01:21:00,2018-12-01 01:22:00,4,1.0
+188,Case48,Triage and Assessment,Resource3,82,83.0,2018-12-01 01:22:00,2018-12-01 01:23:00,4,1.0
+191,Case48,Blood Test,Resource19,83,86.0,2018-12-01 01:23:00,2018-12-01 01:26:00,4,3.0
+200,Case48,Diagnosis,Resource16,88,91.0,2018-12-01 01:28:00,2018-12-01 01:31:00,4,3.0
+211,Case48,Admission,Resource21,92,94.0,2018-12-01 01:32:00,2018-12-01 01:34:00,4,2.0
+222,Case48,Discharge,Resource25,96,99.0,2018-12-01 01:36:00,2018-12-01 01:39:00,4,3.0
+205,Case49,Registration,Resource1,90,91.0,2018-12-01 01:30:00,2018-12-01 01:31:00,2,1.0
+209,Case49,Triage and Assessment,Resource4,91,93.0,2018-12-01 01:31:00,2018-12-01 01:33:00,2,2.0
+216,Case49,Blood Test,Resource17,93,94.0,2018-12-01 01:33:00,2018-12-01 01:34:00,2,1.0
+219,Case49,Diagnosis,Resource16,94,97.0,2018-12-01 01:34:00,2018-12-01 01:37:00,2,3.0
+227,Case49,Admission,Resource20,97,98.0,2018-12-01 01:37:00,2018-12-01 01:38:00,2,1.0
+232,Case49,Discharge,Resource23,100,101.0,2018-12-01 01:40:00,2018-12-01 01:41:00,2,1.0
+99,Case5,Registration,Resource2,50,52.0,2018-12-01 00:50:00,2018-12-01 00:52:00,5,2.0
+109,Case5,Triage and Assessment,Resource3,54,55.0,2018-12-01 00:54:00,2018-12-01 00:55:00,5,1.0
+117,Case5,Blood Test,Resource18,57,59.0,2018-12-01 00:57:00,2018-12-01 00:59:00,5,2.0
+128,Case5,Urine Test,Resource19,61,64.0,2018-12-01 01:01:00,2018-12-01 01:04:00,5,3.0
+136,Case5,Diagnosis,Resource14,64,65.0,2018-12-01 01:04:00,2018-12-01 01:05:00,5,1.0
+139,Case5,Admission,Resource20,65,66.0,2018-12-01 01:05:00,2018-12-01 01:06:00,5,1.0
+142,Case5,Discharge,Resource23,66,67.0,2018-12-01 01:06:00,2018-12-01 01:07:00,5,1.0
+237,Case50,Registration,Resource1,101,102.0,2018-12-01 01:41:00,2018-12-01 01:42:00,3,1.0
+241,Case50,Triage and Assessment,Resource3,102,103.0,2018-12-01 01:42:00,2018-12-01 01:43:00,3,1.0
+248,Case50,Blood Test,Resource17,105,106.0,2018-12-01 01:45:00,2018-12-01 01:46:00,3,1.0
+252,Case50,Diagnosis,Resource15,106,108.0,2018-12-01 01:46:00,2018-12-01 01:48:00,3,2.0
+259,Case50,Admission,Resource22,110,113.0,2018-12-01 01:50:00,2018-12-01 01:53:00,3,3.0
+274,Case50,Discharge,Resource23,115,116.0,2018-12-01 01:55:00,2018-12-01 01:56:00,3,1.0
+261,Case51,Registration,Resource1,110,111.0,2018-12-01 01:50:00,2018-12-01 01:51:00,8,1.0
+266,Case51,Triage and Assessment,Resource4,112,114.0,2018-12-01 01:52:00,2018-12-01 01:54:00,8,2.0
+275,Case51,Blood Test,Resource17,115,116.0,2018-12-01 01:55:00,2018-12-01 01:56:00,8,1.0
+282,Case51,Diagnosis,Resource16,118,121.0,2018-12-01 01:58:00,2018-12-01 02:01:00,8,3.0
+292,Case51,Admission,Resource21,121,123.0,2018-12-01 02:01:00,2018-12-01 02:03:00,8,2.0
+302,Case51,Discharge,Resource24,125,127.0,2018-12-01 02:05:00,2018-12-01 02:07:00,8,2.0
+293,Case52,Registration,Resource1,122,123.0,2018-12-01 02:02:00,2018-12-01 02:03:00,5,1.0
+300,Case52,Triage and Assessment,Resource3,124,125.0,2018-12-01 02:04:00,2018-12-01 02:05:00,5,1.0
+307,Case52,Blood Test,Resource19,127,130.0,2018-12-01 02:07:00,2018-12-01 02:10:00,5,3.0
+315,Case52,Diagnosis,Resource14,131,132.0,2018-12-01 02:11:00,2018-12-01 02:12:00,5,1.0
+320,Case52,Admission,Resource21,132,134.0,2018-12-01 02:12:00,2018-12-01 02:14:00,5,2.0
+331,Case52,Discharge,Resource25,136,139.0,2018-12-01 02:16:00,2018-12-01 02:19:00,5,3.0
+314,Case53,Registration,Resource1,130,131.0,2018-12-01 02:10:00,2018-12-01 02:11:00,10,1.0
+319,Case53,Triage and Assessment,Resource4,132,134.0,2018-12-01 02:12:00,2018-12-01 02:14:00,10,2.0
+329,Case53,Blood Test,Resource18,135,137.0,2018-12-01 02:15:00,2018-12-01 02:17:00,10,2.0
+336,Case53,Diagnosis,Resource16,137,140.0,2018-12-01 02:17:00,2018-12-01 02:20:00,10,3.0
+341,Case53,Admission,Resource20,140,141.0,2018-12-01 02:20:00,2018-12-01 02:21:00,10,1.0
+350,Case53,Discharge,Resource25,143,146.0,2018-12-01 02:23:00,2018-12-01 02:26:00,10,3.0
+345,Case54,Registration,Resource1,141,142.0,2018-12-01 02:21:00,2018-12-01 02:22:00,2,1.0
+349,Case54,Triage and Assessment,Resource4,142,144.0,2018-12-01 02:22:00,2018-12-01 02:24:00,2,2.0
+355,Case54,Blood Test,Resource17,144,145.0,2018-12-01 02:24:00,2018-12-01 02:25:00,2,1.0
+358,Case54,Diagnosis,Resource16,145,148.0,2018-12-01 02:25:00,2018-12-01 02:28:00,2,3.0
+367,Case54,Admission,Resource22,150,153.0,2018-12-01 02:30:00,2018-12-01 02:33:00,2,3.0
+384,Case54,Discharge,Resource24,155,157.0,2018-12-01 02:35:00,2018-12-01 02:37:00,2,2.0
+373,Case55,Registration,Resource1,152,153.0,2018-12-01 02:32:00,2018-12-01 02:33:00,9,1.0
+381,Case55,Triage and Assessment,Resource3,154,155.0,2018-12-01 02:34:00,2018-12-01 02:35:00,9,1.0
+388,Case55,Blood Test,Resource19,157,160.0,2018-12-01 02:37:00,2018-12-01 02:40:00,9,3.0
+397,Case55,Diagnosis,Resource15,161,163.0,2018-12-01 02:41:00,2018-12-01 02:43:00,9,2.0
+410,Case55,Admission,Resource20,165,166.0,2018-12-01 02:45:00,2018-12-01 02:46:00,9,1.0
+417,Case55,Discharge,Resource25,168,171.0,2018-12-01 02:48:00,2018-12-01 02:51:00,9,3.0
+396,Case56,Registration,Resource1,160,161.0,2018-12-01 02:40:00,2018-12-01 02:41:00,3,1.0
+401,Case56,Triage and Assessment,Resource4,162,164.0,2018-12-01 02:42:00,2018-12-01 02:44:00,3,2.0
+409,Case56,Blood Test,Resource17,164,165.0,2018-12-01 02:44:00,2018-12-01 02:45:00,3,1.0
+412,Case56,Diagnosis,Resource15,165,167.0,2018-12-01 02:45:00,2018-12-01 02:47:00,3,2.0
+419,Case56,Admission,Resource20,169,170.0,2018-12-01 02:49:00,2018-12-01 02:50:00,3,1.0
+428,Case56,Discharge,Resource23,172,173.0,2018-12-01 02:52:00,2018-12-01 02:53:00,3,1.0
+424,Case57,Registration,Resource1,170,171.0,2018-12-01 02:50:00,2018-12-01 02:51:00,6,1.0
+429,Case57,Triage and Assessment,Resource4,172,174.0,2018-12-01 02:52:00,2018-12-01 02:54:00,6,2.0
+438,Case57,Blood Test,Resource18,176,178.0,2018-12-01 02:56:00,2018-12-01 02:58:00,6,2.0
+448,Case57,Diagnosis,Resource15,180,182.0,2018-12-01 03:00:00,2018-12-01 03:02:00,6,2.0
+462,Case57,Admission,Resource20,184,185.0,2018-12-01 03:04:00,2018-12-01 03:05:00,6,1.0
+466,Case57,Discharge,Resource23,185,186.0,2018-12-01 03:05:00,2018-12-01 03:06:00,6,1.0
+451,Case58,Registration,Resource1,180,181.0,2018-12-01 03:00:00,2018-12-01 03:01:00,1,1.0
+455,Case58,Triage and Assessment,Resource4,181,183.0,2018-12-01 03:01:00,2018-12-01 03:03:00,1,2.0
+461,Case58,Blood Test,Resource17,183,184.0,2018-12-01 03:03:00,2018-12-01 03:04:00,1,1.0
+467,Case58,Diagnosis,Resource14,186,187.0,2018-12-01 03:06:00,2018-12-01 03:07:00,1,1.0
+471,Case58,Admission,Resource21,187,189.0,2018-12-01 03:07:00,2018-12-01 03:09:00,1,2.0
+474,Case58,Discharge,Resource24,189,191.0,2018-12-01 03:09:00,2018-12-01 03:11:00,1,2.0
+480,Case59,Registration,Resource1,191,192.0,2018-12-01 03:11:00,2018-12-01 03:12:00,7,1.0
+485,Case59,Triage and Assessment,Resource5,193,196.0,2018-12-01 03:13:00,2018-12-01 03:16:00,7,3.0
+497,Case59,Blood Test,Resource18,198,200.0,2018-12-01 03:18:00,2018-12-01 03:20:00,7,2.0
+501,Case59,Diagnosis,Resource16,200,203.0,2018-12-01 03:20:00,2018-12-01 03:23:00,7,3.0
+513,Case59,Admission,Resource21,203,205.0,2018-12-01 03:23:00,2018-12-01 03:25:00,7,2.0
+520,Case59,Discharge,Resource24,205,207.0,2018-12-01 03:25:00,2018-12-01 03:27:00,7,2.0
+130,Case6,Registration,Resource1,62,63.0,2018-12-01 01:02:00,2018-12-01 01:03:00,1,1.0
+138,Case6,Triage and Assessment,Resource3,65,66.0,2018-12-01 01:05:00,2018-12-01 01:06:00,1,1.0
+146,Case6,Blood Test,Resource18,68,70.0,2018-12-01 01:08:00,2018-12-01 01:10:00,1,2.0
+152,Case6,Urine Test,Resource19,71,74.0,2018-12-01 01:11:00,2018-12-01 01:14:00,1,3.0
+169,Case6,Diagnosis,Resource16,76,79.0,2018-12-01 01:16:00,2018-12-01 01:19:00,1,3.0
+177,Case6,Admission,Resource22,79,82.0,2018-12-01 01:19:00,2018-12-01 01:22:00,1,3.0
+192,Case6,Discharge,Resource23,84,85.0,2018-12-01 01:24:00,2018-12-01 01:25:00,1,1.0
+505,Case60,Registration,Resource1,201,202.0,2018-12-01 03:21:00,2018-12-01 03:22:00,10,1.0
+510,Case60,Triage and Assessment,Resource3,202,203.0,2018-12-01 03:22:00,2018-12-01 03:23:00,10,1.0
+514,Case60,Blood Test,Resource17,203,204.0,2018-12-01 03:23:00,2018-12-01 03:24:00,10,1.0
+519,Case60,Diagnosis,Resource16,205,208.0,2018-12-01 03:25:00,2018-12-01 03:28:00,10,3.0
+531,Case60,Admission,Resource21,210,212.0,2018-12-01 03:30:00,2018-12-01 03:32:00,10,2.0
+534,Case60,Discharge,Resource23,212,213.0,2018-12-01 03:32:00,2018-12-01 03:33:00,10,1.0
+4,Case61,Registration,Resource1,12,13.0,2018-12-01 00:12:00,2018-12-01 00:13:00,9,1.0
+7,Case61,Triage and Assessment,Resource5,13,16.0,2018-12-01 00:13:00,2018-12-01 00:16:00,9,3.0
+13,Case61,Intravenous,Resource7,17,19.0,2018-12-01 00:17:00,2018-12-01 00:19:00,9,2.0
+18,Case61,MRI,Resource9,20,26.0,2018-12-01 00:20:00,2018-12-01 00:26:00,9,6.0
+34,Case61,Evaluation,Resource14,26,27.0,2018-12-01 00:26:00,2018-12-01 00:27:00,9,1.0
+37,Case61,Admission,Resource20,27,28.0,2018-12-01 00:27:00,2018-12-01 00:28:00,9,1.0
+39,Case61,Discharge,Resource23,28,29.0,2018-12-01 00:28:00,2018-12-01 00:29:00,9,1.0
+21,Case62,Registration,Resource1,20,21.0,2018-12-01 00:20:00,2018-12-01 00:21:00,2,1.0
+24,Case62,Triage and Assessment,Resource4,21,23.0,2018-12-01 00:21:00,2018-12-01 00:23:00,2,2.0
+31,Case62,Intravenous,Resource7,24,26.0,2018-12-01 00:24:00,2018-12-01 00:26:00,2,2.0
+35,Case62,MRI,Resource11,26,34.0,2018-12-01 00:26:00,2018-12-01 00:34:00,2,8.0
+56,Case62,Evaluation,Resource15,34,36.0,2018-12-01 00:34:00,2018-12-01 00:36:00,2,2.0
+65,Case62,Admission,Resource21,38,40.0,2018-12-01 00:38:00,2018-12-01 00:40:00,2,2.0
+73,Case62,Discharge,Resource24,41,43.0,2018-12-01 00:41:00,2018-12-01 00:43:00,2,2.0
+44,Case63,Registration,Resource1,30,31.0,2018-12-01 00:30:00,2018-12-01 00:31:00,8,1.0
+47,Case63,Triage and Assessment,Resource4,31,33.0,2018-12-01 00:31:00,2018-12-01 00:33:00,8,2.0
+53,Case63,Intravenous,Resource6,33,34.0,2018-12-01 00:33:00,2018-12-01 00:34:00,8,1.0
+57,Case63,MRI,Resource12,34,43.0,2018-12-01 00:34:00,2018-12-01 00:43:00,8,9.0
+86,Case63,Evaluation,Resource14,45,46.0,2018-12-01 00:45:00,2018-12-01 00:46:00,8,1.0
+89,Case63,Admission,Resource20,46,47.0,2018-12-01 00:46:00,2018-12-01 00:47:00,8,1.0
+93,Case63,Discharge,Resource25,47,50.0,2018-12-01 00:47:00,2018-12-01 00:50:00,8,3.0
+72,Case64,Registration,Resource1,40,41.0,2018-12-01 00:40:00,2018-12-01 00:41:00,9,1.0
+77,Case64,Triage and Assessment,Resource4,42,44.0,2018-12-01 00:42:00,2018-12-01 00:44:00,9,2.0
+85,Case64,Intravenous,Resource7,44,46.0,2018-12-01 00:44:00,2018-12-01 00:46:00,9,2.0
+92,Case64,MRI,Resource13,47,57.0,2018-12-01 00:47:00,2018-12-01 00:57:00,9,10.0
+119,Case64,Evaluation,Resource14,58,59.0,2018-12-01 00:58:00,2018-12-01 00:59:00,9,1.0
+122,Case64,Admission,Resource22,59,62.0,2018-12-01 00:59:00,2018-12-01 01:02:00,9,3.0
+131,Case64,Discharge,Resource24,62,64.0,2018-12-01 01:02:00,2018-12-01 01:04:00,9,2.0
+102,Case65,Registration,Resource1,51,52.0,2018-12-01 00:51:00,2018-12-01 00:52:00,4,1.0
+105,Case65,Triage and Assessment,Resource4,52,54.0,2018-12-01 00:52:00,2018-12-01 00:54:00,4,2.0
+113,Case65,Intravenous,Resource7,55,57.0,2018-12-01 00:55:00,2018-12-01 00:57:00,4,2.0
+121,Case65,MRI,Resource11,59,67.0,2018-12-01 00:59:00,2018-12-01 01:07:00,4,8.0
+144,Case65,Evaluation,Resource15,67,69.0,2018-12-01 01:07:00,2018-12-01 01:09:00,4,2.0
+148,Case65,Admission,Resource22,70,73.0,2018-12-01 01:10:00,2018-12-01 01:13:00,4,3.0
+166,Case65,Discharge,Resource23,75,76.0,2018-12-01 01:15:00,2018-12-01 01:16:00,4,1.0
+127,Case66,Registration,Resource1,60,61.0,2018-12-01 01:00:00,2018-12-01 01:01:00,8,1.0
+133,Case66,Triage and Assessment,Resource3,63,64.0,2018-12-01 01:03:00,2018-12-01 01:04:00,8,1.0
+137,Case66,Intravenous,Resource6,64,65.0,2018-12-01 01:04:00,2018-12-01 01:05:00,8,1.0
+140,Case66,MRI,Resource8,65,70.0,2018-12-01 01:05:00,2018-12-01 01:10:00,8,5.0
+155,Case66,Evaluation,Resource14,72,73.0,2018-12-01 01:12:00,2018-12-01 01:13:00,8,1.0
+163,Case66,Admission,Resource20,74,75.0,2018-12-01 01:14:00,2018-12-01 01:15:00,8,1.0
+168,Case66,Discharge,Resource25,75,78.0,2018-12-01 01:15:00,2018-12-01 01:18:00,8,3.0
+158,Case67,Registration,Resource1,73,74.0,2018-12-01 01:13:00,2018-12-01 01:14:00,1,1.0
+165,Case67,Triage and Assessment,Resource3,74,75.0,2018-12-01 01:14:00,2018-12-01 01:15:00,1,1.0
+170,Case67,Intravenous,Resource6,76,77.0,2018-12-01 01:16:00,2018-12-01 01:17:00,1,1.0
+176,Case67,MRI,Resource12,79,88.0,2018-12-01 01:19:00,2018-12-01 01:28:00,1,9.0
+202,Case67,Evaluation,Resource15,89,91.0,2018-12-01 01:29:00,2018-12-01 01:31:00,1,2.0
+213,Case67,Admission,Resource22,93,96.0,2018-12-01 01:33:00,2018-12-01 01:36:00,1,3.0
+223,Case67,Discharge,Resource24,96,98.0,2018-12-01 01:36:00,2018-12-01 01:38:00,1,2.0
+181,Case68,Registration,Resource1,80,81.0,2018-12-01 01:20:00,2018-12-01 01:21:00,9,1.0
+186,Case68,Triage and Assessment,Resource4,82,84.0,2018-12-01 01:22:00,2018-12-01 01:24:00,9,2.0
+196,Case68,Intravenous,Resource6,86,87.0,2018-12-01 01:26:00,2018-12-01 01:27:00,9,1.0
+199,Case68,MRI,Resource13,87,97.0,2018-12-01 01:27:00,2018-12-01 01:37:00,9,10.0
+230,Case68,Evaluation,Resource14,99,100.0,2018-12-01 01:39:00,2018-12-01 01:40:00,9,1.0
+236,Case68,Admission,Resource22,101,104.0,2018-12-01 01:41:00,2018-12-01 01:44:00,9,3.0
+246,Case68,Discharge,Resource24,104,106.0,2018-12-01 01:44:00,2018-12-01 01:46:00,9,2.0
+207,Case69,Registration,Resource1,91,92.0,2018-12-01 01:31:00,2018-12-01 01:32:00,7,1.0
+214,Case69,Triage and Assessment,Resource5,93,96.0,2018-12-01 01:33:00,2018-12-01 01:36:00,7,3.0
+224,Case69,Intravenous,Resource6,96,97.0,2018-12-01 01:36:00,2018-12-01 01:37:00,7,1.0
+229,Case69,MRI,Resource11,98,106.0,2018-12-01 01:38:00,2018-12-01 01:46:00,7,8.0
+251,Case69,Evaluation,Resource14,106,107.0,2018-12-01 01:46:00,2018-12-01 01:47:00,7,1.0
+254,Case69,Admission,Resource21,107,109.0,2018-12-01 01:47:00,2018-12-01 01:49:00,7,2.0
+258,Case69,Discharge,Resource24,109,111.0,2018-12-01 01:49:00,2018-12-01 01:51:00,7,2.0
+150,Case7,Registration,Resource2,70,72.0,2018-12-01 01:10:00,2018-12-01 01:12:00,2,2.0
+157,Case7,Triage and Assessment,Resource3,72,73.0,2018-12-01 01:12:00,2018-12-01 01:13:00,2,1.0
+161,Case7,Blood Test,Resource17,73,74.0,2018-12-01 01:13:00,2018-12-01 01:14:00,2,1.0
+164,Case7,Urine Test,Resource18,74,76.0,2018-12-01 01:14:00,2018-12-01 01:16:00,2,2.0
+174,Case7,Diagnosis,Resource15,78,80.0,2018-12-01 01:18:00,2018-12-01 01:20:00,2,2.0
+179,Case7,Admission,Resource21,80,82.0,2018-12-01 01:20:00,2018-12-01 01:22:00,2,2.0
+187,Case7,Discharge,Resource25,82,85.0,2018-12-01 01:22:00,2018-12-01 01:25:00,2,3.0
+235,Case70,Registration,Resource1,100,101.0,2018-12-01 01:40:00,2018-12-01 01:41:00,9,1.0
+238,Case70,Triage and Assessment,Resource4,101,103.0,2018-12-01 01:41:00,2018-12-01 01:43:00,9,2.0
+244,Case70,Intravenous,Resource6,103,104.0,2018-12-01 01:43:00,2018-12-01 01:44:00,9,1.0
+247,Case70,MRI,Resource10,104,111.0,2018-12-01 01:44:00,2018-12-01 01:51:00,9,7.0
+264,Case70,Evaluation,Resource14,111,112.0,2018-12-01 01:51:00,2018-12-01 01:52:00,9,1.0
+271,Case70,Admission,Resource20,114,115.0,2018-12-01 01:54:00,2018-12-01 01:55:00,9,1.0
+276,Case70,Discharge,Resource25,115,118.0,2018-12-01 01:55:00,2018-12-01 01:58:00,9,3.0
+263,Case71,Registration,Resource1,111,112.0,2018-12-01 01:51:00,2018-12-01 01:52:00,6,1.0
+269,Case71,Triage and Assessment,Resource5,113,116.0,2018-12-01 01:53:00,2018-12-01 01:56:00,6,3.0
+279,Case71,Intravenous,Resource7,116,118.0,2018-12-01 01:56:00,2018-12-01 01:58:00,6,2.0
+284,Case71,MRI,Resource12,118,127.0,2018-12-01 01:58:00,2018-12-01 02:07:00,6,9.0
+311,Case71,Evaluation,Resource16,129,132.0,2018-12-01 02:09:00,2018-12-01 02:12:00,6,3.0
+325,Case71,Admission,Resource20,134,135.0,2018-12-01 02:14:00,2018-12-01 02:15:00,6,1.0
+334,Case71,Discharge,Resource23,137,138.0,2018-12-01 02:17:00,2018-12-01 02:18:00,6,1.0
+289,Case72,Registration,Resource1,120,121.0,2018-12-01 02:00:00,2018-12-01 02:01:00,2,1.0
+294,Case72,Triage and Assessment,Resource4,122,124.0,2018-12-01 02:02:00,2018-12-01 02:04:00,2,2.0
+301,Case72,Intravenous,Resource6,124,125.0,2018-12-01 02:04:00,2018-12-01 02:05:00,2,1.0
+304,Case72,MRI,Resource13,125,135.0,2018-12-01 02:05:00,2018-12-01 02:15:00,2,10.0
+330,Case72,Evaluation,Resource14,135,136.0,2018-12-01 02:15:00,2018-12-01 02:16:00,2,1.0
+337,Case72,Admission,Resource21,138,140.0,2018-12-01 02:18:00,2018-12-01 02:20:00,2,2.0
+340,Case72,Discharge,Resource23,140,141.0,2018-12-01 02:20:00,2018-12-01 02:21:00,2,1.0
+316,Case73,Registration,Resource1,131,132.0,2018-12-01 02:11:00,2018-12-01 02:12:00,4,1.0
+321,Case73,Triage and Assessment,Resource3,132,133.0,2018-12-01 02:12:00,2018-12-01 02:13:00,4,1.0
+326,Case73,Intravenous,Resource6,134,135.0,2018-12-01 02:14:00,2018-12-01 02:15:00,4,1.0
+332,Case73,MRI,Resource11,136,144.0,2018-12-01 02:16:00,2018-12-01 02:24:00,4,8.0
+359,Case73,Evaluation,Resource14,146,147.0,2018-12-01 02:26:00,2018-12-01 02:27:00,4,1.0
+362,Case73,Admission,Resource20,147,148.0,2018-12-01 02:27:00,2018-12-01 02:28:00,4,1.0
+364,Case73,Discharge,Resource25,148,151.0,2018-12-01 02:28:00,2018-12-01 02:31:00,4,3.0
+343,Case74,Registration,Resource1,140,141.0,2018-12-01 02:20:00,2018-12-01 02:21:00,4,1.0
+346,Case74,Triage and Assessment,Resource3,141,142.0,2018-12-01 02:21:00,2018-12-01 02:22:00,4,1.0
+351,Case74,Intravenous,Resource6,143,144.0,2018-12-01 02:23:00,2018-12-01 02:24:00,4,1.0
+357,Case74,MRI,Resource9,145,151.0,2018-12-01 02:25:00,2018-12-01 02:31:00,4,6.0
+376,Case74,Evaluation,Resource14,153,154.0,2018-12-01 02:33:00,2018-12-01 02:34:00,4,1.0
+382,Case74,Admission,Resource21,154,156.0,2018-12-01 02:34:00,2018-12-01 02:36:00,4,2.0
+387,Case74,Discharge,Resource23,156,157.0,2018-12-01 02:36:00,2018-12-01 02:37:00,4,1.0
+369,Case75,Registration,Resource1,150,151.0,2018-12-01 02:30:00,2018-12-01 02:31:00,9,1.0
+372,Case75,Triage and Assessment,Resource4,151,153.0,2018-12-01 02:31:00,2018-12-01 02:33:00,9,2.0
+379,Case75,Intravenous,Resource6,153,154.0,2018-12-01 02:33:00,2018-12-01 02:34:00,9,1.0
+383,Case75,MRI,Resource12,154,163.0,2018-12-01 02:34:00,2018-12-01 02:43:00,9,9.0
+405,Case75,Evaluation,Resource14,163,164.0,2018-12-01 02:43:00,2018-12-01 02:44:00,9,1.0
+413,Case75,Admission,Resource21,166,168.0,2018-12-01 02:46:00,2018-12-01 02:48:00,9,2.0
+418,Case75,Discharge,Resource23,168,169.0,2018-12-01 02:48:00,2018-12-01 02:49:00,9,1.0
+398,Case76,Registration,Resource1,161,162.0,2018-12-01 02:41:00,2018-12-01 02:42:00,10,1.0
+402,Case76,Triage and Assessment,Resource3,162,163.0,2018-12-01 02:42:00,2018-12-01 02:43:00,10,1.0
+406,Case76,Intravenous,Resource6,163,164.0,2018-12-01 02:43:00,2018-12-01 02:44:00,10,1.0
+411,Case76,MRI,Resource13,165,175.0,2018-12-01 02:45:00,2018-12-01 02:55:00,10,10.0
+437,Case76,Evaluation,Resource15,175,177.0,2018-12-01 02:55:00,2018-12-01 02:57:00,10,2.0
+446,Case76,Admission,Resource20,179,180.0,2018-12-01 02:59:00,2018-12-01 03:00:00,10,1.0
+456,Case76,Discharge,Resource23,182,183.0,2018-12-01 03:02:00,2018-12-01 03:03:00,10,1.0
+431,Case77,Registration,Resource1,173,174.0,2018-12-01 02:53:00,2018-12-01 02:54:00,7,1.0
+435,Case77,Triage and Assessment,Resource3,174,175.0,2018-12-01 02:54:00,2018-12-01 02:55:00,7,1.0
+441,Case77,Intravenous,Resource7,177,179.0,2018-12-01 02:57:00,2018-12-01 02:59:00,7,2.0
+452,Case77,MRI,Resource11,181,189.0,2018-12-01 03:01:00,2018-12-01 03:09:00,7,8.0
+475,Case77,Evaluation,Resource15,190,192.0,2018-12-01 03:10:00,2018-12-01 03:12:00,7,2.0
+482,Case77,Admission,Resource20,192,193.0,2018-12-01 03:12:00,2018-12-01 03:13:00,7,1.0
+490,Case77,Discharge,Resource23,195,196.0,2018-12-01 03:15:00,2018-12-01 03:16:00,7,1.0
+459,Case78,Registration,Resource1,183,184.0,2018-12-01 03:03:00,2018-12-01 03:04:00,6,1.0
+464,Case78,Triage and Assessment,Resource3,184,185.0,2018-12-01 03:04:00,2018-12-01 03:05:00,6,1.0
+469,Case78,Intravenous,Resource7,187,189.0,2018-12-01 03:07:00,2018-12-01 03:09:00,6,2.0
+479,Case78,MRI,Resource12,191,200.0,2018-12-01 03:11:00,2018-12-01 03:20:00,6,9.0
+504,Case78,Evaluation,Resource14,201,202.0,2018-12-01 03:21:00,2018-12-01 03:22:00,6,1.0
+508,Case78,Admission,Resource20,202,203.0,2018-12-01 03:22:00,2018-12-01 03:23:00,6,1.0
+518,Case78,Discharge,Resource23,205,206.0,2018-12-01 03:25:00,2018-12-01 03:26:00,6,1.0
+478,Case79,Registration,Resource1,190,191.0,2018-12-01 03:10:00,2018-12-01 03:11:00,6,1.0
+484,Case79,Triage and Assessment,Resource3,193,194.0,2018-12-01 03:13:00,2018-12-01 03:14:00,6,1.0
+489,Case79,Intravenous,Resource6,194,195.0,2018-12-01 03:14:00,2018-12-01 03:15:00,6,1.0
+492,Case79,MRI,Resource9,195,201.0,2018-12-01 03:15:00,2018-12-01 03:21:00,6,6.0
+511,Case79,Evaluation,Resource14,203,204.0,2018-12-01 03:23:00,2018-12-01 03:24:00,6,1.0
+517,Case79,Admission,Resource20,204,205.0,2018-12-01 03:24:00,2018-12-01 03:25:00,6,1.0
+523,Case79,Discharge,Resource25,206,209.0,2018-12-01 03:26:00,2018-12-01 03:29:00,6,3.0
+185,Case8,Registration,Resource1,82,83.0,2018-12-01 01:22:00,2018-12-01 01:23:00,5,1.0
+194,Case8,Triage and Assessment,Resource3,85,86.0,2018-12-01 01:25:00,2018-12-01 01:26:00,5,1.0
+198,Case8,Blood Test,Resource17,87,88.0,2018-12-01 01:27:00,2018-12-01 01:28:00,5,1.0
+201,Case8,Urine Test,Resource18,88,90.0,2018-12-01 01:28:00,2018-12-01 01:30:00,5,2.0
+206,Case8,Diagnosis,Resource14,91,92.0,2018-12-01 01:31:00,2018-12-01 01:32:00,5,1.0
+217,Case8,Admission,Resource20,94,95.0,2018-12-01 01:34:00,2018-12-01 01:35:00,5,1.0
+221,Case8,Discharge,Resource23,95,96.0,2018-12-01 01:35:00,2018-12-01 01:36:00,5,1.0
+503,Case80,Registration,Resource1,200,201.0,2018-12-01 03:20:00,2018-12-01 03:21:00,1,1.0
+506,Case80,Triage and Assessment,Resource4,201,203.0,2018-12-01 03:21:00,2018-12-01 03:23:00,1,2.0
+522,Case80,Intravenous,Resource6,206,207.0,2018-12-01 03:26:00,2018-12-01 03:27:00,1,1.0
+529,Case80,MRI,Resource13,209,219.0,2018-12-01 03:29:00,2018-12-01 03:39:00,1,10.0
+539,Case80,Evaluation,Resource16,219,222.0,2018-12-01 03:39:00,2018-12-01 03:42:00,1,3.0
+540,Case80,Admission,Resource21,222,224.0,2018-12-01 03:42:00,2018-12-01 03:44:00,1,2.0
+541,Case80,Discharge,Resource23,224,225.0,2018-12-01 03:44:00,2018-12-01 03:45:00,1,1.0
+204,Case9,Registration,Resource2,90,92.0,2018-12-01 01:30:00,2018-12-01 01:32:00,10,2.0
+212,Case9,Triage and Assessment,Resource3,92,93.0,2018-12-01 01:32:00,2018-12-01 01:33:00,10,1.0
+215,Case9,Blood Test,Resource19,93,96.0,2018-12-01 01:33:00,2018-12-01 01:36:00,10,3.0
+228,Case9,Urine Test,Resource18,98,100.0,2018-12-01 01:38:00,2018-12-01 01:40:00,10,2.0
+233,Case9,Diagnosis,Resource15,100,102.0,2018-12-01 01:40:00,2018-12-01 01:42:00,10,2.0
+240,Case9,Admission,Resource21,102,104.0,2018-12-01 01:42:00,2018-12-01 01:44:00,10,2.0
+250,Case9,Discharge,Resource25,106,109.0,2018-12-01 01:46:00,2018-12-01 01:49:00,10,3.0

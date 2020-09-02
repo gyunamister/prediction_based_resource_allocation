@@ -269,6 +269,15 @@ class SuggestedOptimizer(object):
 		Instance.set_model_next_act(model_next_act)
 		Instance.set_model_next_time(model_next_time)
 
+		# (CHANGED)
+		est_dir = './prediction/estimation/'
+		estname_next_time = 'modi_BPI_2012_dropna_filter_act.csv' + 'next_timestamp'
+		# load estimation model
+		est_next_time = self.load_model(est_dir, estname_next_time)
+
+		# set prediction model
+		Instance.set_est_next_time(est_next_time)
+
 		# load eventlog
 		eventlog = self.load_real_data(path=org_log_path)
 
@@ -343,20 +352,20 @@ class SuggestedOptimizer(object):
 						i.clear_pred_act_dur()
 						for j in resource_set:
 							if i.get_next_actual_act() in j.get_skills():
-								next_pred_dur, next_time_conf = i.predict_next_time(self.queue, context=True, pred_act=i.get_next_actual_act(), resource=j.get_name())
+								next_pred_dur, next_time_uncertainty = i.predict_next_time(self.queue, context=True, pred_act=i.get_next_actual_act(), resource=j.get_name())
 								# set prediction uncertainty to 0 since it is ready for the next act.
-								i.set_next_act_conf(0)
+								i.set_next_act_uncertainty(0)
 								i.set_pred_act_dur(j, next_pred_dur, 0)
 					else:
 						#set prediction uncertainty to 0 since it is ready for the next act.
-						i.set_next_act_conf(0)
+						i.set_next_act_uncertainty(0)
 				else:
 					# if it has just been released or the next act. prediction was wrong, update the processing time prediction
 					if i.first or i.get_next_actual_act() != i.get_next_pred_act():
 						i.clear_pred_act_dur()
 						for j in resource_set:
 							if i.get_next_actual_act() in j.get_skills():
-								next_pred_dur, next_time_conf = int(self.act_res_mat[i.get_next_actual_act()][j.get_name()]), 0
+								next_pred_dur, next_time_uncertainty = int(self.act_res_mat[i.get_next_actual_act()][j.get_name()]), 0
 								# give noise
 								if np.random.uniform(0,1) < 0.5:
 									next_pred_dur += self.precision * next_pred_dur
@@ -366,21 +375,21 @@ class SuggestedOptimizer(object):
 								if next_pred_dur == 0:
 									next_pred_dur = 1
 
-								i.set_next_act_conf(0)
+								i.set_next_act_uncertainty(0)
 								i.set_pred_act_dur(j, next_pred_dur, 0)
 					else:
 						#set prediction uncertainty to 0 since it is ready for the next act.
-						i.set_next_act_conf(0)
+						i.set_next_act_uncertainty(0)
 
 			# if instance is under operation and the next act. prediction uncertainty is above the threshold, we do not allocate resources for it
 			elif i.get_next_actual_ts() > t:
-				if i.get_next_act_conf() > self.act_uncertainty:
+				if i.get_next_act_uncertainty() > self.act_uncertainty:
 					continue
 
 			for j in i.get_pred_act_dur_dict().keys():
 				# if the processing time prediction uncertainty is above the threshold, we do not include the edge.
 				if i.get_next_actual_ts() > t:
-					if i.get_next_ts_conf(j) > self.ts_uncertainty and j.get_next_ts_conf() > self.ts_uncertainty:
+					if i.get_next_ts_uncertainty(j) > self.ts_uncertainty and j.get_next_ts_uncertainty() > self.ts_uncertainty:
 						continue
 				# generate bipartite graph
 				G.add_edge('s',i, capacity=1)
@@ -470,11 +479,12 @@ class SuggestedOptimizer(object):
 							if j in ready_resource:
 								# if both instance and resource are ready for resource allocation,
 								# update the current situation regarding the instance
-								i.update_actuals(t, j, self.mode, self.act_res_mat)
+								# (CHANGED)
+								i.update_actuals(t, j, self.mode, self.act_res_mat,self.queue)
 
 								# update the info. for the resource
 								j.set_next_pred_ts(i.get_next_pred_ts())
-								j.set_next_ts_conf(i.get_next_ts_conf(j))
+								j.set_next_ts_uncertainty(i.get_next_ts_uncertainty(j))
 								j.set_next_actual_ts(i.get_next_actual_ts())
 								j.set_status(False)
 
@@ -484,30 +494,30 @@ class SuggestedOptimizer(object):
 									self.queue[cur_actual_act] += 1
 
 								if self.exp_name != 'exp_2':
-									next_pred_act, next_act_conf = i.predict_next_act(self.queue, context=True)
+									next_pred_act, next_act_uncertainty = i.predict_next_act(self.queue, context=True)
 									i.set_next_pred_act(next_pred_act)
-									i.set_next_act_conf(next_act_conf)
+									i.set_next_act_uncertainty(next_act_uncertainty)
 								else:
 
 									if np.random.uniform(0,1) > self.precision:
-										next_pred_act, next_act_conf = i.get_next_actual_act(), 0
+										next_pred_act, next_act_uncertainty = i.get_next_actual_act(), 0
 									else:
 										activities = copy.deepcopy(self.activities)
 										activities.remove(i.get_next_actual_act())
-										next_pred_act, next_act_conf = random.choice(activities), 0
+										next_pred_act, next_act_uncertainty = random.choice(activities), 0
 
 									i.set_next_pred_act(next_pred_act)
-									i.set_next_act_conf(next_act_conf)
+									i.set_next_act_uncertainty(next_act_uncertainty)
 
 								# clear dict for processing time and predict the processing time for the next activity
 								i.clear_pred_act_dur()
 								for k in resource_set:
 									if next_pred_act in k.get_skills():
 										if self.exp_name != 'exp_2':
-											next_pred_dur, next_time_conf = i.predict_next_time(self.queue, context=True, pred_act=next_pred_act, resource=k.get_name())
+											next_pred_dur, next_time_uncertainty = i.predict_next_time(self.queue, context=True, pred_act=next_pred_act, resource=k.get_name())
 										else:
 											# give noise
-											next_pred_dur, next_time_conf = int(self.act_res_mat[next_pred_act][k.get_name()]), 0
+											next_pred_dur, next_time_uncertainty = int(self.act_res_mat[next_pred_act][k.get_name()]), 0
 											if np.random.uniform(0,1) < 0.5:
 												next_pred_dur += self.precision * next_pred_dur
 											else:
@@ -515,7 +525,7 @@ class SuggestedOptimizer(object):
 											next_pred_dur = round(next_pred_dur)
 											if next_pred_dur <= 0:
 												next_pred_dur = 1
-										i.set_pred_act_dur(k, next_pred_dur, next_time_conf)
+										i.set_pred_act_dur(k, next_pred_dur, next_time_uncertainty)
 
 
 	#@timing
@@ -579,7 +589,7 @@ class SuggestedOptimizer(object):
 
 		while len(instance_set) != len(completes):
 			print("{} begins".format(t))
-			#ongoing instance를 추가
+			#Add ongoing instance
 			ongoing_instance = self.update_ongoing_instances(instance_set, ongoing_instance, t)
 			#print('current ongoing instance: {}'.format(len(ongoing_instance)))
 

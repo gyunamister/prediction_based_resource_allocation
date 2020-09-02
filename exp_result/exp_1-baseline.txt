@@ -1,2 +1,106 @@
 #Artificial - RQ1, RQ2 for baseline
 
+Baseline: ./sample_data/artificial/testlog_0806_1_40.csv
+ 2161, 11.654266834259033
+Baseline: ./sample_data/artificial/testlog_0806_1_60.csv
+ 3427, 15.988145112991333
+Baseline: ./sample_data/artificial/testlog_0806_1_80.csv
+ 4651, 17.539417028427124
+Baseline: ./sample_data/artificial/testlog_0806_1_100.csv
+ 5765, 22.948522806167603
+Baseline: ./sample_data/artificial/testlog_0806_1_120.csv
+ 7213, 24.57844591140747
+Baseline: ./sample_data/artificial/testlog_0806_1_140.csv
+ 20386, 27.054593086242676
+Baseline: ./sample_data/artificial/testlog_0806_1_160.csv
+ 24215, 31.35251212120056
+Baseline: ./sample_data/artificial/testlog_0806_1_180.csv
+ 61533, 34.650031089782715
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv
+ 4715, 19.463983297348022
+Baseline: ./sample_data/artificial/testlog_0806_1_110.csv
+ 6651, 22.439815044403076
+Baseline: ./sample_data/artificial/testlog_0806_1_130.csv
+ 6564, 24.811749935150146
+Baseline: ./sample_data/artificial/testlog_0806_1_150.csv
+ 10025, 28.361135959625244
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv
+ 4715, 19.53055500984192
+Baseline: ./sample_data/artificial/testlog_0806_1_110.csv
+ 6649, 21.54966402053833
+Baseline: ./sample_data/artificial/testlog_0806_1_130.csv
+ 6564, 23.40438723564148
+Baseline: ./sample_data/artificial/testlog_0806_1_150.csv
+ 10027, 26.361793994903564
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv
+ 4837, 18.83172297477722
+Baseline: ./sample_data/artificial/testlog_0806_1_140.csv
+ 7359, 27.489005088806152
+Baseline: ./sample_data/artificial/testlog_0806_1_120.csv
+ 7879, 30.515724897384644
+Baseline: ./sample_data/artificial/testlog_0806_1_80.csv
+ 3953, 17.529175996780396
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv
+ 5006, 22.34768009185791
+Baseline: ./sample_data/artificial/testlog_0806_1_100.csv
+ 5541, 29.505722761154175
+Baseline: ./sample_data/artificial/testlog_0806_1_110.csv
+ 5761, 30.815811157226562
+Baseline: ./sample_data/artificial/testlog_0806_1_120.csv
+ 8282, 32.05162191390991
+Baseline: ./sample_data/artificial/testlog_0806_1_80.csv
+ 3953, 26.045414924621582
+Baseline: ./sample_data/artificial/testlog_0806_1_130.csv
+ 7367, 33.707030057907104
+Baseline: ./sample_data/artificial/testlog_0806_1_140.csv
+ 6955, 29.33303999900818
+Baseline: ./sample_data/artificial/testlog_0806_1_150.csv
+ 87054, 35.57920002937317
+Baseline: ./sample_data/artificial/testlog_0806_1_160.csv
+ 131606, 37.18840503692627
+Baseline: ./sample_data/artificial/testlog_0806_1_150.csv
+ 87054, 38.262771129608154
+Baseline: ./sample_data/artificial/testlog_0806_1_160.csv
+ 131606, 42.93267893791199
+Baseline: ./sample_data/artificial/testlog_0806_1_140.csv
+ 8358, 26.91951632499695
+Baseline: ./sample_data/artificial/testlog_0806_1_150.csv 
+ 9118, 34.726377964019775 
+Baseline: ./sample_data/artificial/testlog_0806_1_120.csv 
+ 7835, 28.728760957717896 
+Baseline: ./sample_data/artificial/testlog_0806_1_120.csv 
+ 7362, 26.855146884918213 
+Baseline: ./sample_data/artificial/testlog_0806_1_160.csv 
+ 10958, 35.564013957977295 
+Baseline: ./sample_data/artificial/testlog_0806_1_110.csv 
+ 5964, 26.367836713790894 
+Baseline: ./sample_data/artificial/testlog_0806_1_110.csv 
+ 6593, 21.18599510192871 
+Baseline: ./sample_data/artificial/testlog_0806_1_100.csv 
+ 5541, 23.814537048339844 
+Baseline: ./sample_data/artificial/testlog_0806_1_100.csv 
+ 6348, 24.527963876724243 
+Baseline: ./sample_data/artificial/testlog_0806_1_80.csv 
+ 4610, 19.21297597885132 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4320, 22.795455932617188 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 3787, 21.96736717224121 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4663, 18.66903805732727 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4848, 18.628031969070435 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4724, 21.149778127670288 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4686, 24.435044765472412 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4638, 18.11101794242859 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4930, 22.192909002304077 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4511, 20.48340392112732 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4827, 23.460023880004883 
+Baseline: ./sample_data/artificial/testlog_0806_1_90.csv 
+ 4966, 24.625221252441406 

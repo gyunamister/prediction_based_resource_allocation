@@ -1,7 +1,5 @@
 import config
-import metric
 from feature_generator import FeatureGenerator
-import util
 
 import keras
 import pickle

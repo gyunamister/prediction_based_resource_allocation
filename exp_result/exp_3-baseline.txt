@@ -1,2 +1,62 @@
 #Real - RQ1, RQ2
 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-01.csv, num_cases: 270, avg_weight: 5.670407560543414 
+ 5384, 63.120537996292114 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-02.csv, num_cases: 244, avg_weight: 5.38787522071807 
+ 4318, 58.68089485168457 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-03.csv, num_cases: 197, avg_weight: 5.18646408839779 
+ 2540, 40.211808919906616 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-04.csv, num_cases: 11, avg_weight: 6.242718446601942 
+ 142, 10.26963996887207 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-05.csv, num_cases: 141, avg_weight: 5.312338222605694 
+ 2138, 31.433424949645996 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-06.csv, num_cases: 182, avg_weight: 5.343420126671358 
+ 3284, 40.593103885650635 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-07.csv, num_cases: 100, avg_weight: 5.427771556550952 
+ 1754, 26.55316400527954 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-08.csv, num_cases: 155, avg_weight: 5.568690095846645 
+ 2572, 35.45680809020996 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-09.csv, num_cases: 188, avg_weight: 5.7306350314026515 
+ 3641, 43.4192214012146 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-10.csv, num_cases: 110, avg_weight: 4.991080277502478 
+ 1590, 28.165396213531494 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-11.csv, num_cases: 14, avg_weight: 4.671328671328672 
+ 181, 10.376917123794556 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-12.csv, num_cases: 95, avg_weight: 5.832207207207207 
+ 1702, 24.18602418899536 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-13.csv, num_cases: 105, avg_weight: 5.431599229287091 
+ 1824, 26.271095037460327 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-14.csv, num_cases: 121, avg_weight: 5.569939183318853 
+ 2239, 29.86560606956482 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-15.csv, num_cases: 1, avg_weight: 10.0 
+ 20, 8.48859190940857 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-01.csv, num_cases: 270, avg_weight: 5.670407560543414 
+ 5386, 38.85856604576111 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-02.csv, num_cases: 244, avg_weight: 5.38787522071807 
+ 4317, 33.08285212516785 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-03.csv, num_cases: 197, avg_weight: 5.18646408839779 
+ 2544, 23.167856216430664 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-04.csv, num_cases: 11, avg_weight: 6.242718446601942 
+ 142, 9.665268898010254 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-05.csv, num_cases: 141, avg_weight: 5.312338222605694 
+ 2138, 20.50242590904236 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-06.csv, num_cases: 182, avg_weight: 5.343420126671358 
+ 3301, 25.201199769973755 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-07.csv, num_cases: 100, avg_weight: 5.427771556550952 
+ 1742, 18.1462881565094 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-08.csv, num_cases: 155, avg_weight: 5.568690095846645 
+ 2563, 22.656027793884277 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-09.csv, num_cases: 188, avg_weight: 5.7306350314026515 
+ 3652, 26.549122095108032 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-10.csv, num_cases: 110, avg_weight: 4.991080277502478 
+ 1598, 18.562651872634888 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-11.csv, num_cases: 14, avg_weight: 4.671328671328672 
+ 188, 10.258207082748413 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-12.csv, num_cases: 95, avg_weight: 5.832207207207207 
+ 1702, 19.34632921218872 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-13.csv, num_cases: 105, avg_weight: 5.431599229287091 
+ 1830, 20.298474073410034 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-14.csv, num_cases: 121, avg_weight: 5.569939183318853 
+ 2239, 19.905203819274902 
+Baseline: ./sample_data/real/modi_BPI_2012_2012-03-15.csv, num_cases: 1, avg_weight: 10.0 
+ 20, 8.607056856155396 

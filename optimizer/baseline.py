@@ -369,12 +369,12 @@ class BaseOptimizer(object):
 					for j, val in M[i].items():
 						# check if there is a flow
 						if val==1 and j in ready_resource:
-							cur_pred_dur, cur_time_conf = i.predict_next_time(self.queue, context=True, pred_act=i.get_next_actual_act(), resource=j.get_name())
-							i.set_pred_act_dur(j, cur_pred_dur, cur_time_conf)
-							i.update_actuals(t, j, self.mode, self.act_res_mat)
+							cur_pred_dur, cur_time_uncertainty = i.predict_next_time(self.queue, context=True, pred_act=i.get_next_actual_act(), resource=j.get_name())
+							i.set_pred_act_dur(j, cur_pred_dur, cur_time_uncertainty)
+							i.update_actuals(t, j, self.mode, self.act_res_mat,self.queue)
 
 							j.set_next_pred_ts(i.get_next_pred_ts())
-							j.set_next_ts_conf(i.get_next_ts_conf(j))
+							j.set_next_ts_uncertainty(i.get_next_ts_uncertainty(j))
 							j.set_next_actual_ts(i.get_next_actual_ts())
 							j.set_status(False)
 
