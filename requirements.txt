@@ -47,7 +47,7 @@ six==1.11.0
 sklearn==0.0
 smart-open==1.8.4
 tensorboard==1.8.0
-tensorflow==1.8.0
+tensorflow==2.5.0
 termcolor==1.1.0
 tornado==5.0.2
 urllib3==1.25.3
