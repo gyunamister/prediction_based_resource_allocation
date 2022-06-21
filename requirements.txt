@@ -28,7 +28,7 @@ Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==3.0.0
 networkx==2.2
-numpy==1.14.3
+numpy==1.22.0
 packaging==17.1
 pandas==0.23.0
 Pillow==6.1.0
